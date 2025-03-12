@@ -1,0 +1,43 @@
+2 INT Output RIGHT Inverted Open-drain interrupt output. Refer to DGND. Any interrupt will pull INT low. See interrupt chapter. If I2C interface is disabled, connect INT to DGND.
+3 SCL Input LEFT Three-wire serial port input clock line. Refer to DGND. If I2C interface is not used, connect to DGND.
+4 SDAOUT Output LEFT Serial interface data output line. Refer to DGND. If I2C interface is not used, connect to DGND.
+5 SDAIN Input LEFT Serial interface data input line. Refer to DGND. If I2C interface is not used, connect to DGND.
+6 EN Input RIGHT Enable input. Refer to DGND. Connect to VDD through an external pull-up resistor during normal operation. See hardware power-down chapter.
+7 A0 Input RIGHT Corresponds to address bit 0. Refer to DGND. The address format is 0:1:0:A3:A2:A1:A0 (see Table 3). The address bits are internally pulled up to VDD. Use the default address (0101111) when floating. Connect to DGND to change the device address. The address is locked after power-on or reset.
+8 A1 Input RIGHT Corresponds to address bit 1. Refer to DGND. The address format is 0:1:0:A3:A2:A1:A0 (see Table 3). The address bits are internally pulled up to VDD. Use the default address (0101111) when floating. Connect to DGND to change the device address. The address is locked after power-on or reset.
+9 A2 Input RIGHT Corresponds to address bit 2. Refer to DGND. The address format is 0:1:0:A3:A2:A1:A0 (see Table 3). The address bits are internally pulled up to VDD. Use the default address (0101111) when floating. Connect to DGND to change the device address. The address is locked after power-on or reset.
+10 A3 Input RIGHT Corresponds to address bit 3. Refer to DGND. The address format is 0:1:0:A3:A2:A1:A0 (see Table 3). The address bits are internally pulled up to VDD. Use the default address (0101111) when floating. Connect to DGND to change the device address. The address is locked after power-on or reset.
+11 DGND Power Input TOP Digital ground. Connect to VEE externally.
+12 SVEE2 Power Input TOP Current sensing negative input for ports 3/4. Use Kelvin sensing on the PCB layout to provide optimal current sensing accuracy.
+13 VEE Power Input TOP Analog ground. Connected to AGND through a 100V, 0.1μF ceramic capacitor.
+14 VDD Power Input TOP Digital power output. Connect an external RC network; see VDD power supply chapter.
+18 AGND Power Input TOP Analog power input.
+21 DRAIN3 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+22 DRAIN4 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+23 SENSE4 Input RIGHT Current sense positive input, shares pin with the source of the MOSFET. SENSE_ should be connected to the non-VEE end of the 0.25Ω current sense resistor. Use Kelvin sensing on the PCB layout to provide high-precision current sensing and ensure that the sampling resistor is placed close to SENSE_.
+25 DRAIN4 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+26 DRAIN4 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+27 OUT4 Output RIGHT Output voltage detection terminal for port 4.
+28 SENSE3 Input RIGHT Current sense positive input, shares pin with the source of the MOSFET. SENSE_ should be connected to the non-VEE end of the 0.25Ω current sense resistor. Use Kelvin sensing on the PCB layout to provide high-precision current sensing and ensure that the sampling resistor is placed close to SENSE_.
+29 DRAIN3 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+30 DRAIN3 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+31 OUT3 Output RIGHT Output voltage detection terminal for port 3.
+32 DRAIN2 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+33 SENSE2 Input RIGHT Current sense positive input, shares pin with the source of the MOSFET. SENSE_ should be connected to the non-VEE end of the 0.25Ω current sense resistor. Use Kelvin sensing on the PCB layout to provide high-precision current sensing and ensure that the sampling resistor is placed close to SENSE_.
+34 OUT2 Output RIGHT Output voltage detection terminal for port 2.
+35 DRAIN1 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+36 DRAIN1 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+37 SENSE1 Input RIGHT Current sense positive input, shares pin with the source of the MOSFET. SENSE_ should be connected to the non-VEE end of the 0.25Ω current sense resistor. Use Kelvin sensing on the PCB layout to provide high-precision current sensing and ensure that the sampling resistor is placed close to SENSE_.
+39 DRAIN1 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+40 DRAIN2 Output LEFT Drain of the internal N-channel enhancement MOSFET.
+41 OUT1 Output RIGHT Output voltage detection terminal for port 1.
+45 SVEE1 Power Input TOP Current sensing negative input for ports 1/2. Use Kelvin sensing on the PCB layout to provide optimal current sensing accuracy.
+46 N.C. Not Connected RIGHT Internally pulled down to DGND, leave floating or connect to VEE
+47 AUTO Input RIGHT Automatic mode/shutdown mode input. Refer to DGND. AUTO is internally pulled up to VDD. Leave the pin floating, the system defaults to automatic mode. Connect AUTO to DGND, the system defaults to shutdown mode. The operating mode of the device can be changed by software. AUTO is locked after power-on or reset.
+48 MIDSPAN Input RIGHT Mid-span mode logic input. Refer to DGND. MIDSPAN is internally pulled up to VDD. Leave the pin floating to enable mid-span mode, connect to DGND to disable mid-span function. MIDSPAN is locked after power-on or reset.
+	
+	
+	
+	
+	
+	
