@@ -2569,16 +2569,16 @@
 		(uuid "a020a3ab-37d9-43e3-b256-3bcb88915bac")
 	)
 	(junction
+		(at 104.14 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5c514ce-5d83-41a7-9704-b1a37c5929cb")
+	)
+	(junction
 		(at 63.5 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8c2371b-ade2-414c-965e-e112ba7e1f3c")
-	)
-	(junction
-		(at 104.14 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0b91c5c-a05a-40c1-9e7c-1f26aa81b2c6")
 	)
 	(junction
 		(at 87.63 83.82)
@@ -2598,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 44.45) (xy 104.14 48.26)
+			(xy 104.14 44.45) (xy 104.14 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2705,16 +2705,6 @@
 			(type default)
 		)
 		(uuid "3deac35c-0197-416d-8a67-9258d09398c9")
-	)
-	(wire
-		(pts
-			(xy 104.14 55.88) (xy 104.14 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c44854d-3c7d-408b-bf22-93bd88643bdb")
 	)
 	(wire
 		(pts
@@ -3333,76 +3323,6 @@
 			(project ""
 				(path "/c8a16ae6-9a59-46d9-90dc-31792699b8d1"
 					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73061968-d1ac-47ea-bed1-53e607b66e9c")
-		(property "Reference" "R4"
-			(at 106.68 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 106.68 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.918 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8742016f-1557-4cdf-8332-302a4b4eff71")
-		)
-		(pin "2"
-			(uuid "537ac071-c961-4d04-85c5-3635fc9bb363")
-		)
-		(instances
-			(project "ДЗ 7"
-				(path "/c8a16ae6-9a59-46d9-90dc-31792699b8d1"
-					(reference "R4")
 					(unit 1)
 				)
 			)
