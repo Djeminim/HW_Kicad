@@ -1,4 +1,4 @@
-24739092580033756
+24740836250159607
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68515,6 +68515,13 @@ threaded screw
 0
 4
 1
+My_lib2
+564R60GAD10
+564R60GAD10-3
+Capacitor
+0
+2
+2
 My_lib2
 BC32725PBFREE
 TO-92-18R_2024

@@ -1,0 +1,39 @@
+.Filetype ASCII_PDB
+.Version "02.01"
+.Units MM
+.Notation SI
+
+.Job "374799/1645537/2.50/2/4/1"
+.Creator "SamacSys ECAD Model 564R60GAD10"
+.Number "564R60GAD10"
+	..Name "564R60GAD10"
+		...Default
+	..Label "564R60GAD10"
+		...Default
+	..Desc "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk"
+	..RefPrefix "C"
+	..TopCell "564R60GAD10"
+	..BottomCell ""
+	..Prop "Type",	"1",	"Text"
+	..Prop "Manufacturer_Name",	"Vishay",	"Text"
+	..Prop "Manufacturer_Part_Number",	"564R60GAD10",	"Text"
+	..Prop "Mouser Part Number",	"75-564R60GAD10",	"Text"
+	..Prop "Mouser Price/Stock",	"https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D",	"Text"
+	..Prop "Arrow Part Number",	"564R60GAD10",	"Text"
+	..Prop "Arrow Price/Stock",	"https://www.arrow.com/en/products/564r60gad10/vishay?region=nac",	"Text"
+	..Prop "Description",	"Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk",	"Text"
+	..Prop "Datasheet Link",	"https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf",	"Text"
+	..Prop "Height",	"10.2",	"Real"
+	..SwapGroup	"gate1"
+		...SwapID	"P0"
+		...SwapID	"P1"
+	..Symbol	"SamacSys:564R60GAD10"
+		...Symbol_SwapGroup	"gate1"
+			....PinName	"1"
+			....PinName	"2"
+	..Slots
+		...Slot_SwapGroup	"gate1"
+			....SlotID	1
+			....SwapCode	0
+			....PinNumber	"1"
+			....PinNumber	"2"

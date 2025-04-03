@@ -1,0 +1,18 @@
+.564R60GAD10 :1 ;Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk
+"564R60GAD10"
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 564R60GAD10
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (564R60GAD10)
+~!Mouser Part Number (75-564R60GAD10)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D)
+~!Arrow Part Number (564R60GAD10)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/564r60gad10/vishay?region=nac)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf)
+~!Height (10.2mm)
+~!3D_Model (564R60GAD10)
+"564R60GAD10"
+1.1!U 2.1!U 

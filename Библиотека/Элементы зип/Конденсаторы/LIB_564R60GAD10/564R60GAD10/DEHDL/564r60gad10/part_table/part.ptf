@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '564R60GAD10'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "564R60GAD10" (!) = "", "564R60GAD10", "Other", "75-564R60GAD10", "https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D", "564R60GAD10", "https://www.arrow.com/en/products/564r60gad10/vishay?region=nac", "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk", "https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf", "10.2 mm"
+END_PART
+
+END.
