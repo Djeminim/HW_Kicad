@@ -1,0 +1,9 @@
+Manufacturer=Sharp Microelectronics
+PartNumber=PC817X3NSZ9F
+PartCategory=Transistor
+PackageCategory=Dual-In-Line Packages
+PinCount=4
+Version=1.1
+Released=2021-09-19 05:19:29
+Downloaded=2025-04-04 09:18:59
+3D=Y
