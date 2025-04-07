@@ -6,9 +6,6 @@
 	(paper "A4" portrait)
 	(lib_symbols
 		(symbol "BC327-25_PBFREE_1"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(hide yes)
 			)
@@ -992,9 +989,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "My_lib2:PC817X3NSZ9F"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(hide yes)
 			)
@@ -2575,7 +2569,7 @@
 		(uuid "b5c514ce-5d83-41a7-9704-b1a37c5929cb")
 	)
 	(junction
-		(at 63.5 130.81)
+		(at 63.5 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8c2371b-ade2-414c-965e-e112ba7e1f3c")
@@ -2588,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 130.81) (xy 63.5 130.81)
+			(xy 57.15 146.05) (xy 63.5 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 100.33) (xy 57.15 113.03)
+			(xy 57.15 100.33) (xy 57.15 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 109.22) (xy 69.85 113.03)
+			(xy 69.85 109.22) (xy 69.85 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 130.81) (xy 69.85 130.81)
+			(xy 63.5 146.05) (xy 69.85 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 130.81) (xy 57.15 125.73)
+			(xy 57.15 146.05) (xy 57.15 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2858,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 130.81) (xy 69.85 125.73)
+			(xy 69.85 146.05) (xy 69.85 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3024,7 +3018,7 @@
 	)
 	(symbol
 		(lib_id "My_lib2:PC817X3NSZ9F")
-		(at 67.31 119.38 0)
+		(at 67.31 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3033,7 +3027,7 @@
 		(fields_autoplaced yes)
 		(uuid "469bfdb2-8a7e-4020-9a85-f9c0f9e77a79")
 		(property "Reference" "U1"
-			(at 73.66 118.7449 0)
+			(at 73.66 133.9849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3036,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 73.66 120.65 0)
+			(at 73.66 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 119.38 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 119.38 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 119.38 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3111,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "150"
 			(at 78.74 69.8499 0)
 			(effects
 				(font
@@ -3749,7 +3743,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "100"
 			(at 53.34 96.52 90)
 			(effects
 				(font
@@ -4266,7 +4260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 130.81 0)
+		(at 63.5 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4275,7 +4269,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7dfe1b4-4d43-4877-83a3-90e0621e0745")
 		(property "Reference" "#PWR09"
-			(at 63.5 137.16 0)
+			(at 63.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 135.89 0)
+			(at 63.5 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 130.81 0)
+			(at 63.5 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 130.81 0)
+			(at 63.5 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 130.81 0)
+			(at 63.5 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
