@@ -676,7 +676,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "GND"
@@ -694,7 +694,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name ""
@@ -937,7 +937,7 @@
 					(type outline)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -10.16 6.35 270)
 				(length 2.54)
 				(name "Anode"
@@ -955,7 +955,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -10.16 -6.35 90)
 				(length 2.54)
 				(name "Cathode"
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(symbol "TB-09A_1_1"
-			(pin output line
+			(pin power_in line
 				(at -2.54 -3.81 90)
 				(length 2.54)
 				(name ""
@@ -1431,7 +1431,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 2.54 -3.81 90)
 				(length 2.54)
 				(name ""
