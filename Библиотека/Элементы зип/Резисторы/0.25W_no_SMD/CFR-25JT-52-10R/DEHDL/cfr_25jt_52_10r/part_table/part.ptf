@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CFR_25JT_52_10R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "YAGEO", "CFR-25JT-52-10R" (!) = "", "RESAD1590W60L630D240", "Resistors, Axial Diameter Horizontal Mounting", "603-CFR-25JT-52-10R", "https://www.mouser.co.uk/ProductDetail/YAGEO/CFR-25JT-52-10R?qs=KUIzHt%2Fe91kMrs61ISDNWw%3D%3D", "", "", "Carbon Film Resistors - Through Hole 1/4W 10 0hm 5%", "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2023v2.pdf"
+END_PART
+
+END.

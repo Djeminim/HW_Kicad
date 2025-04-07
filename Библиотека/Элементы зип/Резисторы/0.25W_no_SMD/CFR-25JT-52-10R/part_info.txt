@@ -1,0 +1,9 @@
+Manufacturer=YAGEO
+PartNumber=CFR-25JT-52-10R
+PartCategory=Resistor
+PackageCategory=Resistors, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=1.1
+Released=2023-12-06 15:30:32
+Downloaded=2025-04-07 10:14:45
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=HKR
+PartNumber=CF100-3K3-J-TB-070-62
+PartCategory=Resistor
+PackageCategory=Resistors, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=1.1
+Released=2018-06-10 11:08:53
+Downloaded=2025-04-07 07:58:00
+3D=Y

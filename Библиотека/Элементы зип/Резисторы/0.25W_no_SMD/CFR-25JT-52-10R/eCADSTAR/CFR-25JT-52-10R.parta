@@ -1,0 +1,67 @@
+(Japanese_coding: sjis)
+(function "ECS_16284209"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-12-06-15:30:32)
+    (utime 2023-12-06-15:30:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CFR-25JT-52-10R")
+)
+
+
+(pinAssign "ECS_16284209"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-12-06-15:30:32)
+    (utime 2023-12-06-15:30:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16284209")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CFR-25JT-52-10R")
+)
+
+
+(part "CFR-25JT-52-10R"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-12-06-15:30:32)
+    (utime 2023-12-06-15:30:32)
+    (packageRef "CFR-25JT-52-10R")
+    (pinAssignRef "ECS_16284209")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Carbon Film Resistors - Through Hole 1/4W 10 0hm 5%")
+    (property "Manufacturer_Name" "YAGEO")
+    (property "Manufacturer_Part_Number" "CFR-25JT-52-10R")
+    (property "Mouser_Part_Number" "603-CFR-25JT-52-10R")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CFR-25JT-52-10R?qs=KUIzHt%2Fe91kMrs61ISDNWw%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2023v2.pdf")
+)
+
+

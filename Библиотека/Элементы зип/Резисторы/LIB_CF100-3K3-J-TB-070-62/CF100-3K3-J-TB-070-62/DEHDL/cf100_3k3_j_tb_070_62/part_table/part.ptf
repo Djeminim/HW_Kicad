@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CF100_3K3_J_TB_070_62'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "HKR", "CF100-3K3-J-TB-070-62" (!) = "", "RESAD2700W60L1100D400", "Resistors, Axial Diameter Horizontal Mounting", "", "", "", "", "CARBON FILM FIXED RESISTOR, 1.0(1W)", ""
+END_PART
+
+END.
