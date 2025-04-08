@@ -1,4 +1,4 @@
-24742579374618199
+24747812752378068
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68515,27 +68515,55 @@ threaded screw
 0
 4
 1
-My_liblary
+My_lib2
+564R60GAD10
+564R60GAD10-3
+Capacitor
+0
+2
+2
+My_lib2
+0650HIM-130G-G
+
+
+0
+4
+4
+My_lib2
 BC32725PBFREE
 TO-92-18R_2024
 
 0
 3
 3
-My_liblary
-LQFP-48 - bl0910_9x9_Pitch0.5mm
+My_lib2
+DIP762W60P254L460H450Q4N
+PC817
+Transistor
+0
+4
+4
+My_lib2
+R
 
 
 0
-74
-49
-My_liblary
-Керамический конденсатор 564R60GAD10
-564R60GAD10-3
-Capacitor
+2
+2
+My_lib2
+TB-09A
+
+
 0
 2
 2
+My_lib2
+TO-220 - L7805ACV
+3-Pin TO-220
+Integrated Circuit
+0
+3
+3
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -80478,13 +80506,6 @@ VQFP QFP
 0
 176
 176
-Package_QFP
-Без имени
-
-
-0
-0
-0
 Package_SIP
 PowerIntegrations_eSIP-7C
 eSIP-7C Vertical Flat Package with Heatsink Tab, https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
