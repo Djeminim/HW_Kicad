@@ -2621,6 +2621,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2837,12 +2962,6 @@
 		(uuid "14494fbb-5a12-438c-a2f0-7e959ea17ecd")
 	)
 	(junction
-		(at 260.35 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "431dfa72-475e-4ea9-b33c-03a00d3e552d")
-	)
-	(junction
 		(at 69.85 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2861,7 +2980,7 @@
 		(uuid "6582f90a-53dc-4811-b792-3c0e652f422a")
 	)
 	(junction
-		(at 119.38 160.02)
+		(at 171.45 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6883821e-810f-4c3d-972a-93779971abaf")
@@ -2873,7 +2992,7 @@
 		(uuid "7da969a7-1bc4-4fc5-afb6-e964ba4044b7")
 	)
 	(junction
-		(at 132.08 147.32)
+		(at 184.15 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f294e7c-8031-4fcc-9b72-5034f699afb0")
@@ -2883,12 +3002,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "841b8c7b-3611-45c1-82d3-cdea4bc66f38")
-	)
-	(junction
-		(at 260.35 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1c71949-80a3-4192-9744-999d87cfff43")
 	)
 	(junction
 		(at 40.64 58.42)
@@ -2915,13 +3028,7 @@
 		(uuid "df32d67f-115b-4be7-a392-509c413607b4")
 	)
 	(junction
-		(at 273.05 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2b914b6-aa52-4787-809a-9ee7770b6d9a")
-	)
-	(junction
-		(at 119.38 134.62)
+		(at 171.45 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec5b3063-7688-4350-acc0-bee16a383973")
@@ -3006,16 +3113,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 127) (xy 260.35 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6835f6-e905-4f15-ae18-2f37b9c902ad")
-	)
-	(wire
-		(pts
 			(xy 218.44 93.98) (xy 218.44 97.79)
 		)
 		(stroke
@@ -3046,16 +3143,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 124.46) (xy 260.35 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d7e0d4-f527-44db-8e4f-ea906bb8b79a")
-	)
-	(wire
-		(pts
 			(xy 45.72 58.42) (xy 45.72 59.69)
 		)
 		(stroke
@@ -3073,16 +3160,6 @@
 			(type default)
 		)
 		(uuid "292c79d6-fa23-4b15-b7be-1ac15866ffcf")
-	)
-	(wire
-		(pts
-			(xy 273.05 139.7) (xy 273.05 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a4d6c70-3af3-4d9d-b7f1-44dd9e58d67f")
 	)
 	(wire
 		(pts
@@ -3146,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 132.08) (xy 119.38 134.62)
+			(xy 171.45 118.11) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3163,16 +3240,6 @@
 			(type default)
 		)
 		(uuid "4c12fa1d-7af4-4636-a1eb-dfcada7c9911")
-	)
-	(wire
-		(pts
-			(xy 247.65 127) (xy 260.35 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c4664b6-0b80-4d09-8acc-8f8e9d62ead1")
 	)
 	(wire
 		(pts
@@ -3236,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 134.62) (xy 119.38 139.7)
+			(xy 171.45 120.65) (xy 171.45 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3266,6 +3333,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 120.65) (xy 171.45 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751bfe88-ddd3-411f-af96-847e7ef0462e")
+	)
+	(wire
+		(pts
 			(xy 274.32 80.01) (xy 274.32 81.28)
 		)
 		(stroke
@@ -3283,16 +3360,6 @@
 			(type default)
 		)
 		(uuid "818d1093-3600-4ce8-a689-d5aacbed7880")
-	)
-	(wire
-		(pts
-			(xy 106.68 134.62) (xy 119.38 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819e61af-2535-452c-a13e-6926455733f9")
 	)
 	(wire
 		(pts
@@ -3336,16 +3403,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 152.4) (xy 260.35 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b54589-5a55-4819-ba45-6ef213f6b7ae")
-	)
-	(wire
-		(pts
 			(xy 116.84 22.86) (xy 116.84 25.4)
 		)
 		(stroke
@@ -3376,7 +3433,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 132.08 147.32)
+			(xy 176.53 133.35) (xy 184.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3386,43 +3443,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 139.7) (xy 273.05 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a437491-2ea3-4860-8c6b-793e34670458")
-	)
-	(wire
-		(pts
-			(xy 132.08 147.32) (xy 132.08 160.02)
+			(xy 184.15 133.35) (xy 184.15 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a8c6c4b-2438-4e65-bd21-2a810df7f65a")
-	)
-	(wire
-		(pts
-			(xy 260.35 147.32) (xy 260.35 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad5073f-8637-4c72-92c6-dcecb919b3b1")
-	)
-	(wire
-		(pts
-			(xy 260.35 105.41) (xy 260.35 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a01c5dd1-677a-4304-972c-6b00f9d14c17")
 	)
 	(wire
 		(pts
@@ -3476,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 127) (xy 273.05 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b40f5c8c-4a9c-49f1-b0d7-5d3f466223cc")
-	)
-	(wire
-		(pts
 			(xy 218.44 115.57) (xy 218.44 110.49)
 		)
 		(stroke
@@ -3536,7 +3553,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 134.62) (xy 132.08 147.32)
+			(xy 184.15 120.65) (xy 184.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3596,7 +3613,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 154.94) (xy 119.38 160.02)
+			(xy 171.45 140.97) (xy 171.45 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3636,7 +3653,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 119.38 114.3)
+			(xy 171.45 99.06) (xy 171.45 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +3713,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 160.02) (xy 119.38 166.37)
+			(xy 171.45 146.05) (xy 171.45 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4485,7 +4502,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 147.32 90)
+		(at 184.15 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4494,7 +4511,7 @@
 		(fields_autoplaced yes)
 		(uuid "31603ff1-eba6-4354-92d2-5b64cc75d0a7")
 		(property "Reference" "#PWR028"
-			(at 138.43 147.32 0)
+			(at 190.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 147.3199 90)
+			(at 187.96 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 147.32 0)
+			(at 184.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +4538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 147.32 0)
+			(at 184.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 147.32 0)
+			(at 184.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4635,7 @@
 	)
 	(symbol
 		(lib_id "My_lib2:R_CF100-3K3-J-TB-070-62")
-		(at 119.38 132.08 90)
+		(at 171.45 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4627,7 +4644,7 @@
 		(fields_autoplaced yes)
 		(uuid "36db0cef-6084-400f-9445-154910c82ce0")
 		(property "Reference" "R6"
-			(at 121.92 122.5549 90)
+			(at 173.99 108.5849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4653,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 121.92 124.46 90)
+			(at 173.99 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +4662,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:R"
-			(at 118.11 118.11 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 118.11 0)
+			(at 172.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4682,7 @@
 			)
 		)
 		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 119.38 132.08 0)
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4691,7 @@
 			)
 		)
 		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 123.19 118.11 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4701,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 125.73 118.11 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +4711,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "HKR"
-			(at 128.27 118.11 0)
+			(at 180.34 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +4721,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 130.81 118.11 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4731,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 133.35 118.11 0)
+			(at 185.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4741,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 135.89 118.11 0)
+			(at 187.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4751,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 138.43 118.11 0)
+			(at 190.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4761,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 140.97 118.11 0)
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,158 +4931,6 @@
 			(project ""
 				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_lib2:R_CF100-3K3-J-TB-070-62")
-		(at 260.35 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41c1b06f-7880-413c-bc37-f1b323f14a33")
-		(property "Reference" "R11"
-			(at 262.89 114.9349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 262.89 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "My_lib2:R"
-			(at 259.08 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 260.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 264.16 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 266.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "HKR"
-			(at 269.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 271.78 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 274.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 276.86 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 279.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 281.94 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e91d07ef-4093-4e79-8b5f-0d53be86251b")
-		)
-		(pin "1"
-			(uuid "7f18897e-146d-45ea-bb8c-0cc7afe3bc04")
-		)
-		(instances
-			(project "ДЗ 8"
-				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5498,7 +5363,7 @@
 	)
 	(symbol
 		(lib_id "My_lib2:C_564R60GAD10")
-		(at 119.38 134.62 0)
+		(at 171.45 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5507,7 +5372,7 @@
 		(fields_autoplaced yes)
 		(uuid "66d7fb66-277d-4cec-a81a-9dc6694b7e4b")
 		(property "Reference" "C2"
-			(at 125.73 128.27 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5380,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 125.73 130.81 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5388,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:564R60GAD10"
-			(at 128.27 230.81 0)
+			(at 180.34 216.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5398,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf"
-			(at 128.27 330.81 0)
+			(at 180.34 316.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5408,7 @@
 			)
 		)
 		(property "Description" "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk"
-			(at 119.38 134.62 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5417,7 @@
 			)
 		)
 		(property "Height" "10.2"
-			(at 128.27 530.81 0)
+			(at 180.34 516.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5427,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 128.27 630.81 0)
+			(at 180.34 616.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5437,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "564R60GAD10"
-			(at 128.27 730.81 0)
+			(at 180.34 716.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5447,7 @@
 			)
 		)
 		(property "Mouser Part Number" "75-564R60GAD10"
-			(at 128.27 830.81 0)
+			(at 180.34 816.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5457,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D"
-			(at 128.27 930.81 0)
+			(at 180.34 916.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5467,7 @@
 			)
 		)
 		(property "Arrow Part Number" "564R60GAD10"
-			(at 128.27 1030.81 0)
+			(at 180.34 1016.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5477,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/564r60gad10/vishay?region=nac"
-			(at 128.27 1130.81 0)
+			(at 180.34 1116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,53 +6000,17 @@
 		)
 	)
 	(symbol
-		(lib_id "My_lib2:C_564R60GAD10")
-		(at 260.35 127 0)
+		(lib_id "power:+5V")
+		(at 247.65 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ce4d529-8147-450f-8575-2b963755ff42")
-		(property "Reference" "C3"
-			(at 266.7 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 266.7 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_lib2:564R60GAD10"
-			(at 269.24 223.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf"
-			(at 269.24 323.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk"
-			(at 260.35 127 0)
+		(uuid "8beb2aff-e8b2-4e39-8a3e-f243d7c656a5")
+		(property "Reference" "#PWR03"
+			(at 247.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,86 +6018,48 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "10.2"
-			(at 269.24 523.19 0)
+		(property "Value" "+5V"
+			(at 247.65 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 269.24 623.19 0)
+		(property "Footprint" ""
+			(at 247.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "564R60GAD10"
-			(at 269.24 723.19 0)
+		(property "Datasheet" ""
+			(at 247.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "75-564R60GAD10"
-			(at 269.24 823.19 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 247.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D"
-			(at 269.24 923.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "564R60GAD10"
-			(at 269.24 1023.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/564r60gad10/vishay?region=nac"
-			(at 269.24 1123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a58d558-d11f-4b09-ae51-f5f8d49bcd73")
 		)
 		(pin "1"
-			(uuid "c64f4307-faed-4e8e-8a88-9c42e572a067")
+			(uuid "d16895fb-351a-4b7b-ab30-eb2c9f70e436")
 		)
 		(instances
 			(project "ДЗ 8"
 				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
-					(reference "C3")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6589,7 +6380,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 119.38 166.37 180)
+		(at 171.45 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6598,7 +6389,7 @@
 		(fields_autoplaced yes)
 		(uuid "96ca7870-e1ed-4947-adcd-ea6dfc54e706")
 		(property "Reference" "#PWR041"
-			(at 119.38 162.56 0)
+			(at 171.45 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6398,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 119.38 171.45 0)
+			(at 171.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 166.37 0)
+			(at 171.45 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 166.37 0)
+			(at 171.45 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +6424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 119.38 166.37 0)
+			(at 171.45 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,72 +6439,6 @@
 			(project "ДЗ 8"
 				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 260.35 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97a60d2e-3ae4-4ef2-8d92-b1c540a41944")
-		(property "Reference" "#PWR031"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e88e4b54-2fad-4a3f-bd28-9511d566ebb3")
-		)
-		(instances
-			(project "ДЗ 8"
-				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7247,7 +6972,7 @@
 	)
 	(symbol
 		(lib_id "My_lib2:L7805ACV")
-		(at 119.38 147.32 90)
+		(at 171.45 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7255,7 +6980,7 @@
 		(dnp no)
 		(uuid "baf0c8c0-bcee-4035-985d-da285713135d")
 		(property "Reference" "U3"
-			(at 115.062 147.574 0)
+			(at 167.132 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +6988,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 115.57 147.32 0)
+			(at 167.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +6996,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:TO-220 - L7805ACV"
-			(at 109.22 146.304 0)
+			(at 161.29 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7005,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.promelec.ru/upload/datasheet/9/8/L78xx.pdf"
-			(at 111.76 147.574 0)
+			(at 163.83 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7014,7 @@
 			)
 		)
 		(property "Description" "Линейный стабилизатор 5В"
-			(at 132.842 147.574 0)
+			(at 184.912 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7042,7 @@
 	)
 	(symbol
 		(lib_id "My_lib2:C_564R60GAD10")
-		(at 119.38 160.02 0)
+		(at 171.45 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7326,7 +7051,7 @@
 		(fields_autoplaced yes)
 		(uuid "befcae33-6a10-4993-83b6-d35ac73da5b1")
 		(property "Reference" "C1"
-			(at 125.73 153.67 0)
+			(at 177.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +7059,7 @@
 			)
 		)
 		(property "Value" "0.33uF"
-			(at 125.73 156.21 0)
+			(at 177.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7342,7 +7067,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:564R60GAD10"
-			(at 128.27 256.21 0)
+			(at 180.34 242.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +7077,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf"
-			(at 128.27 356.21 0)
+			(at 180.34 342.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7087,7 @@
 			)
 		)
 		(property "Description" "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk"
-			(at 119.38 160.02 0)
+			(at 171.45 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7096,7 @@
 			)
 		)
 		(property "Height" "10.2"
-			(at 128.27 556.21 0)
+			(at 180.34 542.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7106,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 128.27 656.21 0)
+			(at 180.34 642.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7116,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "564R60GAD10"
-			(at 128.27 756.21 0)
+			(at 180.34 742.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7126,7 @@
 			)
 		)
 		(property "Mouser Part Number" "75-564R60GAD10"
-			(at 128.27 856.21 0)
+			(at 180.34 842.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,7 +7136,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D"
-			(at 128.27 956.21 0)
+			(at 180.34 942.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7146,7 @@
 			)
 		)
 		(property "Arrow Part Number" "564R60GAD10"
-			(at 128.27 1056.21 0)
+			(at 180.34 1042.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,7 +7156,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/564r60gad10/vishay?region=nac"
-			(at 128.27 1156.21 0)
+			(at 180.34 1142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,143 +7175,6 @@
 			(project ""
 				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 273.05 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c379999d-4f82-488b-be6a-9339688f9943")
-		(property "Reference" "#PWR029"
-			(at 279.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f75365be-e917-498e-a64f-4a20571426b3")
-		)
-		(instances
-			(project "ДЗ 8"
-				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_lib2:L7805ACV")
-		(at 260.35 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3ba4a86-3dc8-4aaa-bfc7-108d32b085e5")
-		(property "Reference" "U4"
-			(at 256.032 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 256.54 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_lib2:TO-220 - L7805ACV"
-			(at 250.19 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.promelec.ru/upload/datasheet/9/8/L78xx.pdf"
-			(at 252.73 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Линейный стабилизатор 5В"
-			(at 273.812 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6e126b80-460c-4cc2-be5d-a888d90f278a")
-		)
-		(pin "3"
-			(uuid "90f6e66d-e78d-4fb5-b931-bfed973fb745")
-		)
-		(pin "1"
-			(uuid "41a8d4a4-a383-4651-aa50-ceef8495832b")
-		)
-		(instances
-			(project "ДЗ 8"
-				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7815,146 +7403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My_lib2:C_564R60GAD10")
-		(at 260.35 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca8cf5a0-db9e-439f-8a3f-8e172cfb031c")
-		(property "Reference" "C4"
-			(at 266.7 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.33uF"
-			(at 266.7 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_lib2:564R60GAD10"
-			(at 269.24 248.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf"
-			(at 269.24 348.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk"
-			(at 260.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.2"
-			(at 269.24 548.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 269.24 648.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "564R60GAD10"
-			(at 269.24 748.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "75-564R60GAD10"
-			(at 269.24 848.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D"
-			(at 269.24 948.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "564R60GAD10"
-			(at 269.24 1048.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/564r60gad10/vishay?region=nac"
-			(at 269.24 1148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "978d14e8-296e-4e38-96c2-1a0cf6e429d7")
-		)
-		(pin "2"
-			(uuid "6e8e51d6-e68a-457d-a46c-1e40c592d5f7")
-		)
-		(instances
-			(project "ДЗ 8"
-				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 29.21 0)
 		(unit 1)
@@ -8088,72 +7536,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 260.35 158.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daa7da5f-e586-48ec-8124-d3b7818d81fa")
-		(property "Reference" "#PWR047"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 260.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 260.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8f095e0-55bc-4385-9ecd-c88977319cc3")
-		)
-		(instances
-			(project "ДЗ 8"
-				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "My_lib2:PC817X3NSZ9F")
 		(at 215.9 104.14 0)
 		(unit 1)
@@ -8231,7 +7613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 113.03 180)
+		(at 171.45 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8240,7 +7622,7 @@
 		(fields_autoplaced yes)
 		(uuid "db333e2f-cd62-4609-86a6-50267514d7db")
 		(property "Reference" "#PWR030"
-			(at 119.38 106.68 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,7 +7631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 107.95 0)
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +7639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 113.03 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +7648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 113.03 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +7657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 113.03 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9015,6 +8397,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8f1784d-bd9d-491a-8952-8c7f6387ac7b")
+		(property "Reference" "#PWR02"
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b481c5e1-2e4b-48ae-a939-acee9ac32ac1")
+		)
+		(instances
+			(project "ДЗ 8"
+				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:HONGFA_HFD2-0xx-x-L2-x")
 		(at 260.35 49.53 0)
 		(unit 1)
@@ -9265,6 +8713,73 @@
 			(project "ДЗ 8"
 				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9a46701-5de0-4bcb-924b-50ab5feb0cd9")
+		(property "Reference" "#PWR01"
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.56 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2617cc40-ee3d-4465-9054-dc7d11b7122e")
+		)
+		(instances
+			(project ""
+				(path "/042db3c1-c7fd-492d-bc99-a06ee7225fec"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
