@@ -3046,8 +3046,16 @@
 		(uuid "0963dcac-f777-48de-a3b7-13c6f7a0182b")
 	)
 	(no_connect
+		(at 106.68 45.72)
+		(uuid "1ff88074-a3ec-4416-a889-a6782d45e341")
+	)
+	(no_connect
 		(at 267.97 41.91)
 		(uuid "2ce87f34-4bdc-4d81-9886-e87b00122c36")
+	)
+	(no_connect
+		(at 257.81 41.91)
+		(uuid "31749866-5876-4855-9a9a-633804ee5d6a")
 	)
 	(no_connect
 		(at 132.08 45.72)
@@ -3074,8 +3082,16 @@
 		(uuid "c5939df8-ca21-4803-b008-bb6983c42939")
 	)
 	(no_connect
+		(at 247.65 41.91)
+		(uuid "ce950c3b-b80b-4191-8363-b0b7b97ecb3b")
+	)
+	(no_connect
 		(at 111.76 45.72)
 		(uuid "e670f13c-52ae-4533-b385-9dbdf8b2b1dd")
+	)
+	(no_connect
+		(at 116.84 45.72)
+		(uuid "eb22b643-c433-4716-888c-1d198ee375c6")
 	)
 	(no_connect
 		(at 270.51 57.15)
@@ -5010,7 +5026,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4974e96e-a2d4-4af0-8e60-374686c2b718")
 		(property "Reference" "SW1"
 			(at 33.02 71.12 0)
@@ -6143,7 +6158,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8fdbd15c-ec15-4426-ba57-893c40a623af")
 		(property "Reference" "Q1"
 			(at 110.49 96.5199 0)
@@ -6699,7 +6713,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8a7ca8c-5a2f-4ed9-abf4-37fb9c8dcef5")
 		(property "Reference" "U1"
 			(at 80.01 107.3149 0)
