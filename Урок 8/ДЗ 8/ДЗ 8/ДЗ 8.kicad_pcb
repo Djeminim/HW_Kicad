@@ -7196,12 +7196,12 @@
 	(footprint "My_lib2:R"
 		(layer "F.Cu")
 		(uuid "b68fdfe4-6d98-4d72-b80d-48a72e896008")
-		(at 121.985 70.48)
+		(at 58.95 58.4925 -90)
 		(property "Reference" "R2"
-			(at 8.7 -2.625 0)
+			(at 8.7 -2.625 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3858760d-e75e-4e00-b3d6-ad22210562ac")
+			(uuid "aa988000-916b-40bf-afd7-ea2ec81502c7")
 			(effects
 				(font
 					(size 1 1)
@@ -7211,10 +7211,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 2.54 1 0)
+			(at 2.54 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "cc6efa2c-fce2-4e97-9ca1-e0f18f8e7e3c")
+			(uuid "e5db4163-b84d-4320-a267-5f2f45ba31a7")
 			(effects
 				(font
 					(size 1 1)
@@ -7223,11 +7223,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 2.54 0 0)
+			(at 2.54 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5bb20ca-045c-4d7f-b582-cad6c31ef11b")
+			(uuid "b17b80ea-3de5-4bbb-8d64-c2537b7d7685")
 			(effects
 				(font
 					(size 1 1)
@@ -7236,11 +7236,11 @@
 			)
 		)
 		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 2.54 0 0)
+			(at 2.54 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b90812bc-9132-4787-85ba-5971b00ad42a")
+			(uuid "33130377-10e8-403b-8987-984b24c5000a")
 			(effects
 				(font
 					(size 1 1)
@@ -7249,7 +7249,7 @@
 			)
 		)
 		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7262,7 +7262,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7275,7 +7275,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "HKR"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7288,7 +7288,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7301,7 +7301,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7314,7 +7314,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7327,7 +7327,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7340,7 +7340,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7357,16 +7357,6 @@
 		(sheetfile "ДЗ 8.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 5.65 -1.25)
-			(end 11.95 -1.25)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "52fff30f-b14d-40db-a9d9-e547933c8e16")
-		)
-		(fp_line
 			(start 5.65 1.15)
 			(end 5.65 -1.25)
 			(stroke
@@ -7375,16 +7365,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e06a5b54-d907-45fa-b8f6-80a6d9af8f27")
-		)
-		(fp_line
-			(start 11.95 -1.25)
-			(end 11.95 1.15)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "41da9d7b-f76a-40f1-aad4-4f4ee610acb3")
 		)
 		(fp_line
 			(start 11.95 1.15)
@@ -7397,14 +7377,24 @@
 			(uuid "837f0124-5dbc-4bcf-bdc4-7dda9fbea4bd")
 		)
 		(fp_line
-			(start 2.54 -1.6)
-			(end 15.24 -1.6)
+			(start 5.65 -1.25)
+			(end 11.95 -1.25)
 			(stroke
-				(width 0.05)
+				(width 0.2)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "dcea0bc5-2d29-433a-90c0-d7bd28c13c05")
+			(layer "F.SilkS")
+			(uuid "52fff30f-b14d-40db-a9d9-e547933c8e16")
+		)
+		(fp_line
+			(start 11.95 -1.25)
+			(end 11.95 1.15)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "41da9d7b-f76a-40f1-aad4-4f4ee610acb3")
 		)
 		(fp_line
 			(start 2.54 1.5)
@@ -7417,16 +7407,6 @@
 			(uuid "fa247352-2ce4-44bc-ab73-06cc06cba239")
 		)
 		(fp_line
-			(start 15.24 -1.6)
-			(end 15.24 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0cf9dc22-27e3-43bf-88c6-71c4f3653004")
-		)
-		(fp_line
 			(start 15.24 1.5)
 			(end 2.54 1.5)
 			(stroke
@@ -7437,14 +7417,24 @@
 			(uuid "06457dc9-aab9-4f78-a344-e73ef6757a21")
 		)
 		(fp_line
-			(start 5.65 -1.25)
-			(end 11.95 -1.25)
+			(start 2.54 -1.6)
+			(end 15.24 -1.6)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "46e61ed5-9322-4d5e-865d-158b0e0c92ce")
+			(layer "F.CrtYd")
+			(uuid "dcea0bc5-2d29-433a-90c0-d7bd28c13c05")
+		)
+		(fp_line
+			(start 15.24 -1.6)
+			(end 15.24 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0cf9dc22-27e3-43bf-88c6-71c4f3653004")
 		)
 		(fp_line
 			(start 5.65 1.15)
@@ -7457,16 +7447,6 @@
 			(uuid "613496ff-ff8b-4080-b669-9cee43dbcb8c")
 		)
 		(fp_line
-			(start 11.95 -1.25)
-			(end 11.95 1.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a6f31b9d-7428-4e18-bd55-079552a8c6d2")
-		)
-		(fp_line
 			(start 11.95 1.15)
 			(end 5.65 1.15)
 			(stroke
@@ -7476,8 +7456,28 @@
 			(layer "F.Fab")
 			(uuid "85a7b5a0-4aff-444a-8b84-4df75beb08a8")
 		)
+		(fp_line
+			(start 5.65 -1.25)
+			(end 11.95 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "46e61ed5-9322-4d5e-865d-158b0e0c92ce")
+		)
+		(fp_line
+			(start 11.95 -1.25)
+			(end 11.95 1.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a6f31b9d-7428-4e18-bd55-079552a8c6d2")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0.85 -0.05 0)
+			(at 0.85 -0.05 90)
 			(layer "F.Fab")
 			(uuid "5a188b80-fe7b-4b2e-a1f7-a7c3f9447b7c")
 			(effects
@@ -7488,7 +7488,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 4.2 -0.05)
+			(at 4.2 -0.05 270)
 			(size 1.2 1.2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7498,7 +7498,7 @@
 			(uuid "08c0703e-11bf-45fd-b573-e88f987518f4")
 		)
 		(pad "2" thru_hole circle
-			(at 13.4 0)
+			(at 13.4 0 270)
 			(size 1.2 1.2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
