@@ -120,9 +120,9 @@
 	(net 0 "")
 	(net 1 "Net-(D1-K)")
 	(net 2 "GND")
-	(net 3 "Net-(D2-K)")
+	(net 3 "Net-(D2-A)")
 	(net 4 "Net-(D3-K)")
-	(net 5 "Net-(D4-K)")
+	(net 5 "Net-(D4-A)")
 	(net 6 "unconnected-(K1-Pad24)")
 	(net 7 "unconnected-(K1-Pad22)")
 	(net 8 "unconnected-(K1-Pad21)")
@@ -839,7 +839,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 12 "unconnected-(K2-Pad12)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "0033b518-8410-4078-a76c-783574d9538f")
 		)
 		(pad "14" thru_hole circle
@@ -890,7 +890,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.125)
 			(net 38 "unconnected-(K2-PadA1)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "27b0796d-15d2-47a6-843c-ed8756b8c6a5")
 		)
 		(pad "A2" thru_hole circle
@@ -1146,7 +1146,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(D2-K)")
+			(net 2 "GND")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "5722b619-358c-408b-8dbd-bc9bd42de073")
@@ -1157,7 +1157,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 3 "Net-(D2-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "cd20588d-888d-431d-a9ee-50d82b78653a")
@@ -1192,7 +1192,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "100"
 			(at 2.54 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1733,7 +1733,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1000"
 			(at 2.54 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2191,7 +2191,6 @@
 				)
 			)
 		)
-		(path "/36db0cef-6084-400f-9445-154910c82ce0")
 		(sheetname "/")
 		(sheetfile "ДЗ 8.kicad_sch")
 		(attr through_hole)
@@ -2365,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "510"
 			(at 2.54 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3054,7 +3053,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "47"
 			(at 2.54 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3370,7 +3369,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "47"
 			(at 2.54 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4132,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "100"
 			(at 2.54 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4432,6 +4431,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "My_lib2:TB-09A"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7c93b0f5-0761-4005-936e-6090685d8a11")
 		(at 55 30 180)
@@ -4793,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "510"
 			(at 2.54 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5775,7 +5775,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "unconnected-(K1-Pad12)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "45de39ab-9ead-4653-8d99-438b7964b7b1")
 		)
 		(pad "14" thru_hole circle
@@ -5826,7 +5826,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.125)
 			(net 37 "unconnected-(K1-PadA1)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "9e975e76-7405-45df-a544-44da4ef0bb20")
 		)
 		(pad "A2" thru_hole circle
@@ -5889,7 +5889,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "510"
 			(at 2.54 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6172,7 +6172,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(D4-K)")
+			(net 5 "Net-(D4-A)")
 			(pintype "passive")
 			(uuid "6ba68ce0-cc63-4b86-bb56-9f46efc1ab9c")
 		)
@@ -6894,7 +6894,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "510"
 			(at 2.54 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7177,7 +7177,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(D2-K)")
+			(net 3 "Net-(D2-A)")
 			(pintype "passive")
 			(uuid "92d68c44-470a-41ee-b978-db0c69d9aeef")
 		)
@@ -7210,7 +7210,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1000"
 			(at 2.54 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9305,7 +9305,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(D4-K)")
+			(net 2 "GND")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "5f0ffce5-d7f3-4053-bc40-8ce95238e9ae")
@@ -9316,7 +9316,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 5 "Net-(D4-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "05c92e93-16aa-47d9-9f13-6157b67beb1a")
@@ -9351,7 +9351,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 16)
-		(uuid "053fa840-1b1b-4e50-b668-659387bf2ef6")
+		(uuid "2706fb27-bc9e-47f7-aa0f-189e8455beda")
 	)
 	(segment
 		(start 56.7 30)
@@ -9359,7 +9359,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 16)
-		(uuid "72c5e689-f559-4c1b-bd32-b5a0b000a7aa")
+		(uuid "a49bc9b7-bae3-4839-beb2-587cc018f288")
 	)
 	(segment
 		(start 78.80557 28.1075)
