@@ -1,0 +1,75 @@
+Cmp-Mod V01 Created by PcbNew   date = 2025-04-21T22:08:50+0300
+
+BeginCmp
+TimeStamp = f0428808-249b-437b-b93d-013cff08a7ae
+Path = /0b9ae019-430c-4a67-aa86-62206d83dae7
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_SMD:C_1808_4520Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 19bee303-66fd-486c-bd6e-4ae3b4d71bcf
+Path = /ac7cdcaa-6e52-46cc-9b97-81c5ed828f0b
+Reference = U1;
+ValeurCmp = TPS62130A;
+IdModule  = Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias;
+EndCmp
+
+BeginCmp
+TimeStamp = 0312eca4-6a01-42eb-8405-242ce88e6dee
+Path = /883c7cf5-eb6d-49d8-a9f1-ebe676301b68
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = ee083b16-2cda-40b4-bb83-bfddb1a02f3f
+Path = /b5d8fc61-a413-44d1-85ef-27cf722d0096
+Reference = R2;
+ValeurCmp = 2k2;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 21ccd6e7-c1e4-4c8a-ba9d-8cda7643228a
+Path = /33a70590-a895-4f2a-b066-382fe1decf7c
+Reference = R1;
+ValeurCmp = 6k8;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 08f191a6-8413-4d51-a9ff-1c5b32583d04
+Path = /092b1e35-7330-4793-8155-874c60383fc6
+Reference = L1;
+ValeurCmp = 2.2uH;
+IdModule  = Inductor_SMD:L_Coilcraft_XxL4020;
+EndCmp
+
+BeginCmp
+TimeStamp = 212dced5-f8fc-407e-96a1-01e2c4dca550
+Path = /a6985fd0-7818-4c58-87b4-95d5cfe38e26
+Reference = C4;
+ValeurCmp = 3.3nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = a84e5f3c-765a-4ca0-8b27-69a7469f6d6c
+Path = /5e7c7ce5-e1ab-4929-85e4-707eabc34df6
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 83e8d75e-4237-49dc-abb7-62b25fa69157
+Path = /87b4baef-1c2f-4db9-b569-851e543637ec
+Reference = C2;
+ValeurCmp = 22uF;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+EndListe
