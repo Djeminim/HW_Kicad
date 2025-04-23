@@ -715,6 +715,132 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "LM317T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at -3.81 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_liblary:TO-220 - L7805ACV"
+			(at 0 7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.promelec.ru/upload/datasheet/b/c/LM117-LM217-LM317-ST.pdf"
+			(at 2.286 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1-ADJ 2-OUT 3-IN"
+			(at 0.508 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM317T_0_1"
+			(rectangle
+				(start -5.08 2.54)
+				(end 5.08 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LM317T_1_1"
+			(text "LM317T\n"
+				(at 0.254 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "PC817X3NSZ9F"
 		(pin_numbers
 			(hide yes)
@@ -1212,7 +1338,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0.762 6.096 0)
+			(at 0.635 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1356,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:0650HIM-130G-G"
-			(at 0 7.62 0)
+			(at -0.127 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,31 +1404,9 @@
 					(type none)
 				)
 			)
-			(circle
-				(center -4.572 0)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -4.572 -5.08)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 5.588)
+					(xy -0.127 1.524) (xy -0.127 3.302)
 				)
 				(stroke
 					(width 0)
@@ -1338,30 +1442,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy -2.54 3.81)
+					(xy 2.413 1.524) (xy -2.667 1.524)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 4.572 0)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 4.572 -5.08)
-				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
