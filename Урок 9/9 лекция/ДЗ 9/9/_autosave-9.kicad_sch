@@ -30,7 +30,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "My_lib2:564R60GAD10"
+			(property "Footprint" "My_lib2:C - 564R60GAD10"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -819,7 +819,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "My_lib2:R"
+			(property "Footprint" "My_lib2:R axil"
 				(at 13.97 1.27 0)
 				(effects
 					(font
@@ -1008,7 +1008,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "My_lib2:0650HIM-130G-G"
+			(property "Footprint" "My_lib2:SW - 0650HIM-130G-G"
 				(at -0.127 5.334 0)
 				(effects
 					(font
@@ -1386,6 +1386,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 29.21 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d10601-7fb0-4463-9f3b-f06a789d212a")
+	)
+	(junction
+		(at 55.88 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b444d2d-56a1-45fb-b672-859fbd94a57e")
 	)
 	(junction
 		(at 55.88 62.23)
@@ -1424,16 +1537,16 @@
 		(uuid "b07ceec9-cbf9-461a-a528-bba320bac3cf")
 	)
 	(junction
-		(at 55.88 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3f8a238-b5b4-4b1e-a614-cb56b318a158")
-	)
-	(junction
 		(at 100.33 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dec8fd08-24ae-4ade-af20-918739fbc277")
+	)
+	(junction
+		(at 29.21 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb019488-8ce5-4de6-a36e-2bd061965b95")
 	)
 	(no_connect
 		(at 209.55 54.61)
@@ -1464,6 +1577,16 @@
 			(type default)
 		)
 		(uuid "0141cec7-04c3-4153-8ae9-38f15b189389")
+	)
+	(wire
+		(pts
+			(xy 29.21 39.37) (xy 25.4 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0552f814-d4c6-4781-93b1-7b3d2089d4cc")
 	)
 	(wire
 		(pts
@@ -1517,6 +1640,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 57.15) (xy 55.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f97dd9-fd2e-4de2-863d-97f56f39cc88")
+	)
+	(wire
+		(pts
 			(xy 162.56 59.69) (xy 166.37 59.69)
 		)
 		(stroke
@@ -1524,6 +1657,16 @@
 			(type default)
 		)
 		(uuid "1c8b92a3-b00f-4a98-b01b-1e86f7cf6589")
+	)
+	(wire
+		(pts
+			(xy 29.21 44.45) (xy 33.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241897f8-8ccd-4a88-a026-a0785079b292")
 	)
 	(wire
 		(pts
@@ -1567,13 +1710,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 62.23) (xy 55.88 57.15)
+			(xy 29.21 54.61) (xy 29.21 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f7684a3-bf7f-4e95-a8f5-1619c881602d")
+		(uuid "3e420bb0-bda8-4aa2-b4b0-e86c8814c8ec")
+	)
+	(wire
+		(pts
+			(xy 29.21 35.56) (xy 33.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407894ca-0776-4579-8a25-3ade0e7ca43b")
 	)
 	(wire
 		(pts
@@ -1594,6 +1747,16 @@
 			(type default)
 		)
 		(uuid "52bcd003-a87f-4904-994b-6126f65838a6")
+	)
+	(wire
+		(pts
+			(xy 25.4 44.45) (xy 29.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae0e071-33bb-43d4-930a-03ca6ca2e6e3")
 	)
 	(wire
 		(pts
@@ -1637,23 +1800,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 39.37) (xy 31.75 35.56)
+			(xy 29.21 34.29) (xy 29.21 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84805d40-f31b-4408-9391-5fcb01b6ba2c")
-	)
-	(wire
-		(pts
-			(xy 25.4 39.37) (xy 31.75 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8494eeea-87aa-48e3-b49a-057fa28cbf9c")
 	)
 	(wire
 		(pts
@@ -1677,13 +1830,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 44.45) (xy 33.02 44.45)
+			(xy 29.21 35.56) (xy 29.21 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b218a964-9c2f-4c87-8893-16ab459514c9")
+		(uuid "afca9e3b-de98-4a5d-bd21-25285430602d")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 71.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7185744-479c-496a-9b12-5b82405a295d")
 	)
 	(wire
 		(pts
@@ -1703,7 +1866,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cdf99ed5-0b97-420b-9b86-f2b575c9ee48")
+		(uuid "c98d77b7-2d7e-4568-a800-5dcd1dfb9112")
 	)
 	(wire
 		(pts
@@ -1714,16 +1877,6 @@
 			(type default)
 		)
 		(uuid "dc4af443-dff1-4d89-aa74-0014ef000f4e")
-	)
-	(wire
-		(pts
-			(xy 55.88 44.45) (xy 71.12 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1e1755-6135-4165-811d-51ce34514665")
 	)
 	(wire
 		(pts
@@ -1814,6 +1967,28 @@
 		(uuid "52bd012b-a023-45ad-904c-a82a3e4e047e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.7734 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT-IC1"
+		(shape output)
+		(at 34.29 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "875fa655-f261-47c0-a842-663638a366c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.0195 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +2114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_lib2:R"
+		(property "Footprint" "My_lib2:R axil"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -2132,8 +2307,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 29.21 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d98a589-b51f-4106-8cac-f9c2b0df9edd")
+		(property "Reference" "#FLG01"
+			(at 29.21 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddf7dde3-aaef-43ed-a95a-aa13d3a7db45")
+		)
+		(instances
+			(project ""
+				(path "/50e5c0e4-4225-4751-951c-f19c77f3f838"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 31.75 35.56 180)
+		(at 29.21 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2142,7 +2383,7 @@
 		(fields_autoplaced yes)
 		(uuid "4044a0cb-658c-4b90-95f7-414908e2e57b")
 		(property "Reference" "#PWR04"
-			(at 31.75 29.21 0)
+			(at 29.21 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 30.48 0)
+			(at 29.21 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 35.56 0)
+			(at 29.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 35.56 0)
+			(at 29.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 35.56 0)
+			(at 29.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My_lib2:R"
+		(property "Footprint" "My_lib2:R axil"
 			(at 74.93 60.96 0)
 			(effects
 				(font
@@ -2348,6 +2589,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b352169-583c-43b8-8b63-3dae176004ab")
+		(property "Reference" "#PWR07"
+			(at 100.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba02c6d-585c-498d-887c-df01244490d2")
+		)
+		(instances
+			(project "9"
+				(path "/50e5c0e4-4225-4751-951c-f19c77f3f838"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "My_lib2:R_CF100-3K3-J-TB-070-62")
 		(at 33.02 44.45 0)
 		(unit 1)
@@ -2373,7 +2680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My_lib2:R"
+		(property "Footprint" "My_lib2:R axil"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -2525,7 +2832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_lib2:R"
+		(property "Footprint" "My_lib2:R axil"
 			(at 91.44 58.42 0)
 			(effects
 				(font
@@ -2650,72 +2957,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95864e2e-6843-4340-ac3a-d9a97fc0e43b")
-		(property "Reference" "#PWR01"
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94e12748-d86a-41fe-9bfe-d0f60f75e8a8")
-		)
-		(instances
-			(project ""
-				(path "/50e5c0e4-4225-4751-951c-f19c77f3f838"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "My_lib2:R_CF100-3K3-J-TB-070-62")
 		(at 153.67 29.21 0)
 		(unit 1)
@@ -2743,7 +2984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_lib2:R"
+		(property "Footprint" "My_lib2:R axil"
 			(at 167.64 27.94 0)
 			(effects
 				(font
@@ -2939,15 +3180,15 @@
 	)
 	(symbol
 		(lib_id "My_lib2:C_564R60GAD10")
-		(at 55.88 57.15 90)
+		(at 100.33 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1fdf115-2a52-427b-9a93-c5a88e76dbcf")
-		(property "Reference" "C1"
-			(at 59.69 50.1649 90)
+		(uuid "bb4dc6cb-de0b-4d37-841c-c448a565c150")
+		(property "Reference" "C2"
+			(at 106.68 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3197,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 59.69 52.07 90)
+			(at 96.52 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,8 +3205,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "My_lib2:564R60GAD10"
-			(at 152.07 48.26 0)
+		(property "Footprint" "My_lib2:C - 564R60GAD10"
+			(at 4.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +3216,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf"
-			(at 252.07 48.26 0)
+			(at -95.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +3226,7 @@
 			)
 		)
 		(property "Description" "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk"
-			(at 55.88 57.15 0)
+			(at 100.33 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3235,7 @@
 			)
 		)
 		(property "Height" "10.2"
-			(at 452.07 48.26 0)
+			(at -295.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3245,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 552.07 48.26 0)
+			(at -395.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3255,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "564R60GAD10"
-			(at 652.07 48.26 0)
+			(at -495.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3265,7 @@
 			)
 		)
 		(property "Mouser Part Number" "75-564R60GAD10"
-			(at 752.07 48.26 0)
+			(at -595.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3275,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D"
-			(at 852.07 48.26 0)
+			(at -695.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3285,7 @@
 			)
 		)
 		(property "Arrow Part Number" "564R60GAD10"
-			(at 952.07 48.26 0)
+			(at -795.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3295,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/564r60gad10/vishay?region=nac"
-			(at 1052.07 48.26 0)
+			(at -895.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,81 +3305,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "17581135-846b-4d71-97be-42e40719c809")
+			(uuid "a51e9563-a6a3-4089-9d91-3ba90a328993")
 		)
 		(pin "2"
-			(uuid "eac4618d-4465-444a-a155-394ba98b4546")
-		)
-		(instances
-			(project ""
-				(path "/50e5c0e4-4225-4751-951c-f19c77f3f838"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5ec2d3d-54fb-4844-9b98-d959b7012af0")
-		(property "Reference" "#PWR02"
-			(at 100.33 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94c5327c-450f-43ac-a355-f4f5383648b0")
+			(uuid "52b3dbf4-b4ad-412a-89b2-3baa4d2edb7d")
 		)
 		(instances
 			(project "9"
 				(path "/50e5c0e4-4225-4751-951c-f19c77f3f838"
-					(reference "#PWR02")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3329,7 +3504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "My_lib2:0650HIM-130G-G"
+		(property "Footprint" "My_lib2:SW - 0650HIM-130G-G"
 			(at 117.983 39.116 0)
 			(effects
 				(font
@@ -3379,15 +3554,15 @@
 	)
 	(symbol
 		(lib_id "My_lib2:C_564R60GAD10")
-		(at 100.33 57.15 90)
+		(at 55.88 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d9ac011d-c244-4f3b-b208-1e9e7f8f0157")
-		(property "Reference" "C2"
-			(at 104.14 50.1649 90)
+		(property "Reference" "C1"
+			(at 52.07 51.4351 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3571,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 104.14 52.07 90)
+			(at 52.07 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,8 +3579,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "My_lib2:564R60GAD10"
-			(at 196.52 48.26 0)
+		(property "Footprint" "My_lib2:C - 564R60GAD10"
+			(at -40.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3590,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf"
-			(at 296.52 48.26 0)
+			(at -140.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3600,7 @@
 			)
 		)
 		(property "Description" "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk"
-			(at 100.33 57.15 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3609,7 @@
 			)
 		)
 		(property "Height" "10.2"
-			(at 496.52 48.26 0)
+			(at -340.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3619,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 596.52 48.26 0)
+			(at -440.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3629,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "564R60GAD10"
-			(at 696.52 48.26 0)
+			(at -540.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3639,7 @@
 			)
 		)
 		(property "Mouser Part Number" "75-564R60GAD10"
-			(at 796.52 48.26 0)
+			(at -640.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3649,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D"
-			(at 896.52 48.26 0)
+			(at -740.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3659,7 @@
 			)
 		)
 		(property "Arrow Part Number" "564R60GAD10"
-			(at 996.52 48.26 0)
+			(at -840.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3669,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/564r60gad10/vishay?region=nac"
-			(at 1096.52 48.26 0)
+			(at -940.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3687,140 @@
 		(instances
 			(project "9"
 				(path "/50e5c0e4-4225-4751-951c-f19c77f3f838"
-					(reference "C2")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee529367-2697-4a4e-ad72-cd474e29be82")
+		(property "Reference" "#FLG02"
+			(at 34.925 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d4fb84-b41c-463c-bf77-1478e75231b0")
+		)
+		(instances
+			(project "9"
+				(path "/50e5c0e4-4225-4751-951c-f19c77f3f838"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f30a88f0-fff8-417e-81ff-fb082e2a9db6")
+		(property "Reference" "#PWR06"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a06f9216-15de-45c6-a7e7-c6c2dbf165dc")
+		)
+		(instances
+			(project "9"
+				(path "/50e5c0e4-4225-4751-951c-f19c77f3f838"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
