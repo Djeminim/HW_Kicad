@@ -363,6 +363,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "PC817X3NSZ9F"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -635,7 +641,7 @@
 		)
 		(symbol "PC817X3NSZ9F_1_1"
 			(pin passive line
-				(at 3.81 -6.35 90)
+				(at 2.54 -6.35 90)
 				(length 2.54)
 				(name "Emitter"
 					(effects

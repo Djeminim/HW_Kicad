@@ -5,14 +5,15 @@
 	(layer "F.Cu")
 	(descr "3-Pin TO-220")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
-		(at 0 0 0)
+	(property "Reference" "U**"
+		(at 3.1 -4.525 0)
 		(layer "F.SilkS")
 		(uuid "3d5bb16f-0f77-4a2b-ac76-4cded8b65419")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
+				(bold yes)
 			)
 		)
 	)

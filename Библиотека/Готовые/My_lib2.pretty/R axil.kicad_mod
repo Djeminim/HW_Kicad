@@ -1,4 +1,4 @@
-(footprint "R"
+(footprint "R axil"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "R"
+	(property "Value" "R axil"
 		(at 2.54 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
