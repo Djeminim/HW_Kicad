@@ -1,0 +1,117 @@
+(footprint "C - 564R60GAD10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "564R60GAD10-3")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 2.875 -3.075 0)
+		(layer "F.SilkS")
+		(uuid "53bdd86c-bfd5-44e5-b403-1c43940323d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "C - 564R60GAD10"
+		(at 0.35 1.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "daa004c0-77cd-43b8-82b2-48a932b4c5a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23fb479c-9118-4ae5-b176-0098db6a0e7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae5ff252-4ba2-4d53-8454-5156f11fd03c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.55 -1.1)
+		(end 6.25 2.675)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1855abdf-b008-4a40-8f24-78e45a4d2312")
+	)
+	(fp_rect
+		(start -1 -2)
+		(end 6.625 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "65591570-3495-44bb-8001-b28d894097c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.75 -5 0)
+		(layer "F.Fab")
+		(uuid "07f168fe-e11b-4152-bf01-0950a01dbf45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0.5 0)
+		(size 1.515 1.515)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e22eb146-ee16-4ad1-8159-43f5065c1abd")
+	)
+	(pad "2" thru_hole circle
+		(at 5.2 1.5)
+		(size 1.515 1.515)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4ed198f-e915-4b17-9811-c46cc7751af4")
+	)
+	(embedded_fonts no)
+	(model "564R60GAD10.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
