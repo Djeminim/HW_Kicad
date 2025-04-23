@@ -1295,7 +1295,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC**"
+		(property "Reference" "IC"
 			(at 17.272 3.048 0)
 			(effects
 				(font
