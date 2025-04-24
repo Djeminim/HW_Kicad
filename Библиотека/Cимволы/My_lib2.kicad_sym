@@ -841,7 +841,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LM393P")
+	(symbol "LM393P"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
