@@ -2420,7 +2420,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VT"
-			(at -0.762 4.826 0)
+			(at 2.794 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
