@@ -446,9 +446,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "My_Lib"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "9.kicad_pro",
@@ -611,7 +609,7 @@
   },
   "sheets": [
     [
-      "0fd9fdcc-f246-4a83-bfb4-9a7adbbc58f1",
+      "50e5c0e4-4225-4751-951c-f19c77f3f838",
       "Root"
     ]
   ],
