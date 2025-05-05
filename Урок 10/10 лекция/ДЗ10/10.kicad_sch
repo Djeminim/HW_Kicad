@@ -2486,25 +2486,25 @@
 		(uuid "0bb004e3-cc4f-4c6a-b25c-9ff44f2910a8")
 	)
 	(junction
+		(at 135.89 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cd1353b-e826-4c48-9511-babf8e60fe4a")
+	)
+	(junction
 		(at 52.07 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f5facc4-0416-43e9-965f-b3c11c5deb3a")
 	)
 	(junction
-		(at 125.73 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c3a79a5-b3a6-430e-9c1b-e99bbb99080a")
-	)
-	(junction
-		(at 208.28 95.25)
+		(at 189.23 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f548d42-96d0-4153-980e-6f87cbdb2710")
 	)
 	(junction
-		(at 208.28 60.96)
+		(at 189.23 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20b32415-04bf-40ee-be45-3982a7eafa30")
@@ -2516,7 +2516,13 @@
 		(uuid "27203fc1-28d3-4918-863d-db62d77d8afb")
 	)
 	(junction
-		(at 233.68 95.25)
+		(at 49.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e958f3a-602b-4dd7-8d27-16f528c9b241")
+	)
+	(junction
+		(at 214.63 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30d98fec-c091-4926-83e3-8e8d0ad0276c")
@@ -2534,25 +2540,13 @@
 		(uuid "32590e05-d485-44f2-bff2-cf74315b81f7")
 	)
 	(junction
-		(at 99.06 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69f1302e-c4ab-40af-9d8d-cb821a0b37fc")
-	)
-	(junction
-		(at 154.94 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c6a4fa3-c4fa-4378-a199-97d412ee24fd")
-	)
-	(junction
-		(at 208.28 130.81)
+		(at 189.23 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f1be229-9a5d-487e-9173-bda63b4e2c58")
 	)
 	(junction
-		(at 233.68 130.81)
+		(at 214.63 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f9ad43c-ee79-4a8b-8e14-7a164bf08ccd")
@@ -2576,7 +2570,13 @@
 		(uuid "8a04f73f-257d-42cb-b1c2-0bf545adffa1")
 	)
 	(junction
-		(at 185.42 95.25)
+		(at 49.53 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa02d65-ef4f-4354-aee7-daf610ab6467")
+	)
+	(junction
+		(at 166.37 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ab55451-c8ef-40f5-8e2c-9fe61063a51e")
@@ -2594,13 +2594,13 @@
 		(uuid "b65ef004-5d2d-4ed9-9fd3-fe5fd350b2a2")
 	)
 	(junction
-		(at 224.79 130.81)
+		(at 205.74 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6ecfa9f-0793-413f-8421-7348521e710b")
 	)
 	(junction
-		(at 198.12 95.25)
+		(at 179.07 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde531b2-22e2-4e8f-980a-453634b69eed")
@@ -2635,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 130.81) (xy 251.46 130.81)
+			(xy 214.63 138.43) (xy 232.41 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2645,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 161.29 95.25)
+			(xy 138.43 102.87) (xy 142.24 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 251.46 90.17)
+			(xy 232.41 93.98) (xy 232.41 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2665,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 95.25) (xy 198.12 76.2)
+			(xy 179.07 102.87) (xy 179.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2675,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 97.79) (xy 54.61 97.79)
+			(xy 45.72 97.79) (xy 54.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2685,7 +2685,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 130.81) (xy 233.68 130.81)
+			(xy 49.53 87.63) (xy 49.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160734c1-ecc1-4f6e-bf09-56bdc84101b5")
+	)
+	(wire
+		(pts
+			(xy 205.74 138.43) (xy 214.63 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +2705,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 95.25) (xy 185.42 95.25)
+			(xy 160.02 102.87) (xy 166.37 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2705,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 130.81) (xy 208.28 121.92)
+			(xy 189.23 138.43) (xy 189.23 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +2755,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 95.25) (xy 198.12 95.25)
+			(xy 166.37 102.87) (xy 179.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2795,16 +2805,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 125.73 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c7abde-3cab-4533-bc03-e280d2873528")
-	)
-	(wire
-		(pts
 			(xy 57.15 53.34) (xy 52.07 53.34)
 		)
 		(stroke
@@ -2815,17 +2815,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 41.91) (xy 165.1 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40109739-eb10-4242-b4bf-ff96a0560976")
-	)
-	(wire
-		(pts
-			(xy 185.42 121.92) (xy 185.42 130.81)
+			(xy 166.37 129.54) (xy 166.37 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2835,33 +2825,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 35.56) (xy 154.94 41.91)
+			(xy 135.89 58.42) (xy 139.7 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b3e6f57-c96a-4720-b2ab-d0964642355d")
+		(uuid "440d08f5-c80b-4c1d-b987-38ba4beaa8b8")
 	)
 	(wire
 		(pts
-			(xy 224.79 138.43) (xy 224.79 130.81)
+			(xy 205.74 146.05) (xy 205.74 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5bc7476d-c285-46e1-9073-01d63c543b0b")
-	)
-	(wire
-		(pts
-			(xy 125.73 97.79) (xy 125.73 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fbf6c8a-e9b7-4c35-8289-434214401285")
 	)
 	(wire
 		(pts
@@ -2885,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 130.81) (xy 224.79 130.81)
+			(xy 189.23 138.43) (xy 205.74 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2895,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 87.63) (xy 29.21 97.79)
+			(xy 22.86 87.63) (xy 22.86 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2895,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 87.63) (xy 29.21 87.63)
+			(xy 54.61 87.63) (xy 49.53 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2925,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 212.09 95.25)
+			(xy 189.23 102.87) (xy 193.04 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2955,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 95.25) (xy 185.42 104.14)
+			(xy 166.37 102.87) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 60.96) (xy 251.46 60.96)
+			(xy 189.23 68.58) (xy 232.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +2955,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 60.96) (xy 208.28 68.58)
+			(xy 189.23 68.58) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2985,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 114.3) (xy 69.85 114.3)
+			(xy 22.86 114.3) (xy 69.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3045,13 +3025,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 208.28 106.68)
+			(xy 189.23 102.87) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "879aa93e-0cbb-472c-9c34-9f7a18da4aea")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8959d7b7-7b56-46ec-b6fd-dc71c5a8a61c")
 	)
 	(wire
 		(pts
@@ -3065,6 +3055,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 35.56) (xy 135.89 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0b928f-e57d-4d51-b3ca-9ebbdda9c314")
+	)
+	(wire
+		(pts
 			(xy 106.68 29.21) (xy 106.68 35.56)
 		)
 		(stroke
@@ -3075,16 +3075,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 125.73 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8daa97d0-3d37-43cb-9508-32f51edf8fa7")
-	)
-	(wire
-		(pts
 			(xy 31.75 45.72) (xy 31.75 35.56)
 		)
 		(stroke
@@ -3092,6 +3082,16 @@
 			(type default)
 		)
 		(uuid "8f14a8e0-76de-405e-b9d7-0efca8352378")
+	)
+	(wire
+		(pts
+			(xy 49.53 87.63) (xy 22.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90646c00-42bb-426b-87a0-125b4a930456")
 	)
 	(wire
 		(pts
@@ -3125,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 139.7 58.42)
+			(xy 133.35 58.42) (xy 135.89 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3135,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 100.33) (xy 251.46 130.81)
+			(xy 232.41 107.95) (xy 232.41 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3165,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 87.63) (xy 90.17 87.63)
+			(xy 85.09 87.63) (xy 138.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3215,7 +3215,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 110.49) (xy 29.21 114.3)
+			(xy 49.53 92.71) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc850d49-1315-4c64-ae23-53c0b8ba1527")
+	)
+	(wire
+		(pts
+			(xy 22.86 109.22) (xy 22.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3225,17 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 35.56) (xy 154.94 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a9c829-91f8-4c6b-864d-f7e6c57c429e")
-	)
-	(wire
-		(pts
-			(xy 233.68 118.11) (xy 233.68 130.81)
+			(xy 214.63 125.73) (xy 214.63 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3245,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 208.28 95.25)
+			(xy 189.23 91.44) (xy 189.23 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3255,7 +3255,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 77.47) (xy 143.51 77.47)
+			(xy 106.68 35.56) (xy 109.22 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd80ca01-3db8-43d4-b156-442e55b039f7")
+	)
+	(wire
+		(pts
+			(xy 132.08 77.47) (xy 143.51 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3265,7 +3275,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 95.25) (xy 233.68 95.25)
+			(xy 135.89 35.56) (xy 135.89 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52e169d-f7a8-4783-81a6-cb6465102e27")
+	)
+	(wire
+		(pts
+			(xy 210.82 102.87) (xy 214.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3285,7 +3305,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 95.25) (xy 233.68 100.33)
+			(xy 214.63 102.87) (xy 214.63 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3295,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 41.91) (xy 154.94 41.91)
+			(xy 143.51 41.91) (xy 165.1 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3335,23 +3355,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 50.8) (xy 208.28 60.96)
+			(xy 189.23 58.42) (xy 189.23 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e65a113a-bc9c-4325-bc41-bdf49efe01f4")
-	)
-	(wire
-		(pts
-			(xy 106.68 35.56) (xy 116.84 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7eb22c7-cd51-4393-930c-629bd6f5378b")
 	)
 	(wire
 		(pts
@@ -3365,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 54.61 92.71)
+			(xy 44.45 92.71) (xy 49.53 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3395,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 130.81) (xy 208.28 130.81)
+			(xy 166.37 138.43) (xy 189.23 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3415,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 95.25) (xy 198.12 114.3)
+			(xy 179.07 102.87) (xy 179.07 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3435,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 95.25) (xy 243.84 95.25)
+			(xy 214.63 102.87) (xy 224.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3445,7 +3455,7 @@
 	)
 	(global_label "DIS - NE555"
 		(shape input)
-		(at 52.07 97.79 180)
+		(at 45.72 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3455,29 +3465,7 @@
 		)
 		(uuid "2697a529-3942-436d-8669-0af7c681ae94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.3849 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT - NE555"
-		(shape output)
-		(at 157.48 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3fc8442c-433b-4d5e-b989-0391ed9ba4df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.2506 95.25 0)
+			(at 30.0349 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3499,7 @@
 	)
 	(global_label "TR - NE555"
 		(shape input)
-		(at 52.07 92.71 180)
+		(at 44.45 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3521,34 +3509,12 @@
 		)
 		(uuid "5455a772-c70e-456e-8297-6321dd1e7e7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2316 92.71 0)
+			(at 29.6116 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT - NE555"
-		(shape input)
-		(at 90.17 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "616c2139-f06a-4d10-a770-3357b4dd1fa4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.3994 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3597,9 +3563,9 @@
 			)
 		)
 	)
-	(global_label "DIS - NE555"
+	(global_label "TR - NE555"
 		(shape output)
-		(at 125.73 104.14 270)
+		(at 132.08 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3609,7 +3575,7 @@
 		)
 		(uuid "be25c789-59b6-46f5-880a-a4ea10caf9a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 119.8251 90)
+			(at 117.2416 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3587,7 @@
 	)
 	(global_label "12V"
 		(shape output)
-		(at 208.28 50.8 90)
+		(at 189.23 58.42 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3631,7 +3597,7 @@
 		)
 		(uuid "cffadcc6-920c-4591-b944-0e9b8626d2ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 44.3072 90)
+			(at 189.23 51.9272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3766,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7n"
+		(property "Value" "0.1n"
 			(at 106.426 108.458 90)
 			(effects
 				(font
@@ -3991,7 +3957,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:VT - BC327-25_PBFREE")
-		(at 198.12 114.3 0)
+		(at 179.07 121.92 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4000,7 +3966,7 @@
 		(dnp no)
 		(uuid "38f90dd7-99b3-42c8-8545-4938bee3defc")
 		(property "Reference" "VT2"
-			(at 212.09 114.3 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.5833 1.3333)
@@ -4009,7 +3975,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 212.09 114.3 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +3984,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:BC32725PBFREE"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +3993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4002,7 @@
 			)
 		)
 		(property "Description" "Bipolar Transistors - BJT PNP 50Vcbo 45 Vceo 500mA 625mW Trans"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4011,7 @@
 			)
 		)
 		(property "Part Name" "BC327-25_PBFREE"
-			(at 212.09 116.2049 0)
+			(at 193.04 123.8249 0)
 			(effects
 				(font
 					(size 1.5833 1.3333)
@@ -4055,7 +4021,7 @@
 			)
 		)
 		(property "Part Version" "1"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4030,7 @@
 			)
 		)
 		(property "3D_Model" "BC327-25_PBFREE"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4039,7 @@
 			)
 		)
 		(property "Arrow Part Number" "-"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4048,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "-"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4057,7 @@
 			)
 		)
 		(property "Height" "7.87mm"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4066,7 @@
 			)
 		)
 		(property "Link Datasheet" "https://my.centralsemi.com/datasheets/BC327-328.PDF"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4075,7 @@
 			)
 		)
 		(property "Link Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Central-Semiconductor/BC327-25-PBFREE?qs=u16ybLDytRZN73jSFKN2Hg%3D%3D"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4084,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Central Semiconductor"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4093,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BC327-25 PBFREE"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +4102,7 @@
 			)
 		)
 		(property "Mouser Part Number" "610-BC327-25"
-			(at 198.12 114.3 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4130,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:LED")
-		(at 251.46 64.77 90)
+		(at 232.41 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4173,7 +4139,7 @@
 		(fields_autoplaced yes)
 		(uuid "397e4c08-015f-4901-8d5e-119880608bc7")
 		(property "Reference" "D4"
-			(at 255.27 65.0874 90)
+			(at 236.22 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4148,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 255.27 67.6274 90)
+			(at 236.22 75.2474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 64.77 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 64.77 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4175,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 251.46 64.77 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4184,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 251.46 64.77 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4209,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:R - CF100-3K3-J-TB-070-62")
-		(at 134.62 35.56 180)
+		(at 127 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4251,7 +4217,7 @@
 		(dnp no)
 		(uuid "399d7628-5c08-4ce3-bf12-20bea118ea39")
 		(property "Reference" "R3"
-			(at 125.73 31.75 0)
+			(at 118.11 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4225,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 127 38.862 0)
+			(at 119.38 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4234,7 @@
 			)
 		)
 		(property "Footprint" "RESAD2700W60L1100D400"
-			(at 120.65 36.83 0)
+			(at 113.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 34.29 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4254,7 @@
 			)
 		)
 		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 134.62 35.56 0)
+			(at 127 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4263,7 @@
 			)
 		)
 		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 120.65 31.75 0)
+			(at 113.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4273,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 120.65 29.21 0)
+			(at 113.03 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4283,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "HKR"
-			(at 120.65 26.67 0)
+			(at 113.03 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4293,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 120.65 24.13 0)
+			(at 113.03 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4303,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 120.65 21.59 0)
+			(at 113.03 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4313,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 120.65 19.05 0)
+			(at 113.03 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4323,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 120.65 16.51 0)
+			(at 113.03 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4333,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 120.65 13.97 0)
+			(at 113.03 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +4842,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:VT - КТ3102БМ")
-		(at 198.12 76.2 0)
+		(at 179.07 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4885,7 +4851,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a50fe99-2717-4211-a0d6-e15f9df226d1")
 		(property "Reference" "VT1"
-			(at 212.09 75.5649 0)
+			(at 193.04 83.1849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +4860,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 212.09 77.47 0)
+			(at 193.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4869,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:VT - BC32725PBFREE TO-92"
-			(at 199.136 59.69 0)
+			(at 180.086 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4878,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.promelec.ru/upload/items/2020/02/06/kt3102a_d_.pdf"
-			(at 199.136 59.69 0)
+			(at 180.086 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +4887,7 @@
 			)
 		)
 		(property "Description" "Биполярный транзистор NPN 50В 100мА 250мВт Кус 200-500 150МГц"
-			(at 199.136 59.69 0)
+			(at 180.086 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4915,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:R - CF100-3K3-J-TB-070-62")
-		(at 233.68 100.33 270)
+		(at 214.63 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4957,7 +4923,7 @@
 		(dnp no)
 		(uuid "8e0eb6b2-f13f-4dc6-852f-a8522b47cd06")
 		(property "Reference" "R7"
-			(at 229.87 109.22 0)
+			(at 210.82 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4931,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 236.982 107.95 0)
+			(at 217.932 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4940,7 @@
 			)
 		)
 		(property "Footprint" "RESAD2700W60L1100D400"
-			(at 234.95 114.3 0)
+			(at 215.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 114.3 0)
+			(at 213.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +4960,7 @@
 			)
 		)
 		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 233.68 100.33 0)
+			(at 214.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +4969,7 @@
 			)
 		)
 		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 229.87 114.3 0)
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +4979,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 227.33 114.3 0)
+			(at 208.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4989,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "HKR"
-			(at 224.79 114.3 0)
+			(at 205.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +4999,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 222.25 114.3 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +5009,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 219.71 114.3 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5019,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 217.17 114.3 0)
+			(at 198.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5029,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 214.63 114.3 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5039,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 212.09 114.3 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +5372,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:R - CF100-3K3-J-TB-070-62")
-		(at 185.42 104.14 270)
+		(at 166.37 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5414,7 +5380,7 @@
 		(dnp no)
 		(uuid "a09e21f2-1ff1-42d3-bc69-c2e8a0003d41")
 		(property "Reference" "R6"
-			(at 181.61 113.03 0)
+			(at 162.56 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5388,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 188.722 111.76 0)
+			(at 169.672 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5397,7 @@
 			)
 		)
 		(property "Footprint" "RESAD2700W60L1100D400"
-			(at 186.69 118.11 0)
+			(at 167.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 118.11 0)
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5417,7 @@
 			)
 		)
 		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 185.42 104.14 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5426,7 @@
 			)
 		)
 		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 181.61 118.11 0)
+			(at 162.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5436,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 179.07 118.11 0)
+			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5446,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "HKR"
-			(at 176.53 118.11 0)
+			(at 157.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +5456,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 173.99 118.11 0)
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5466,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 171.45 118.11 0)
+			(at 152.4 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5476,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 168.91 118.11 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5486,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 166.37 118.11 0)
+			(at 147.32 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +5496,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 163.83 118.11 0)
+			(at 144.78 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5663,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:C - 564R60GAD10")
-		(at 29.21 110.49 90)
+		(at 22.86 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5706,7 +5672,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9846df5-71d2-4357-81f0-4bdc14174947")
 		(property "Reference" "C3"
-			(at 33.02 102.8699 90)
+			(at 26.67 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,8 +5680,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01u"
-			(at 33.02 105.4099 90)
+		(property "Value" "4.7u"
+			(at 26.67 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5690,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:564R60GAD10"
-			(at 125.4 101.6 0)
+			(at 119.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +5700,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/564R60GAD10.pdf"
-			(at 225.4 101.6 0)
+			(at 219.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5710,7 @@
 			)
 		)
 		(property "Description" "Cap Ceramic Single 0.001uF 6000V Z5U 20% (10.2 X 6.9mm) Radial 9.5mm 105C Bulk"
-			(at 29.21 110.49 0)
+			(at 22.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5719,7 @@
 			)
 		)
 		(property "Height" "10.2"
-			(at 425.4 101.6 0)
+			(at 419.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5729,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 525.4 101.6 0)
+			(at 519.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,7 +5739,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "564R60GAD10"
-			(at 625.4 101.6 0)
+			(at 619.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5749,7 @@
 			)
 		)
 		(property "Mouser Part Number" "75-564R60GAD10"
-			(at 725.4 101.6 0)
+			(at 719.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5759,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay/564R60GAD10?qs=xrnNvQC1SKQV3fR046g7Jg%3D%3D"
-			(at 825.4 101.6 0)
+			(at 819.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5769,7 @@
 			)
 		)
 		(property "Arrow Part Number" "564R60GAD10"
-			(at 925.4 101.6 0)
+			(at 919.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +5779,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/564r60gad10/vishay?region=nac"
-			(at 1025.4 101.6 0)
+			(at 1019.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +5955,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 138.43 0)
+		(at 205.74 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5998,7 +5964,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9e12c39-80f1-4038-b346-08a793d35e34")
 		(property "Reference" "#PWR09"
-			(at 224.79 144.78 0)
+			(at 205.74 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +5973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 143.51 0)
+			(at 205.74 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +5981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 138.43 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +5990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 138.43 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +5999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 138.43 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:VT_NMOS")
-		(at 248.92 95.25 0)
+		(at 229.87 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6064,7 +6030,7 @@
 		(fields_autoplaced yes)
 		(uuid "d54c706a-6123-4166-956a-6ec79abc664a")
 		(property "Reference" "VT3"
-			(at 255.27 94.6149 0)
+			(at 236.22 102.2349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6039,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 255.27 96.52 0)
+			(at 236.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 92.71 0)
+			(at 234.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 95.25 0)
+			(at 229.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6066,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 248.92 95.25 0)
+			(at 229.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6164,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:R - CF100-3K3-J-TB-070-62")
-		(at 179.07 95.25 180)
+		(at 160.02 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6206,7 +6172,7 @@
 		(dnp no)
 		(uuid "e035e3f4-18c7-4175-81ca-3521ed851fda")
 		(property "Reference" "R4"
-			(at 170.18 91.44 0)
+			(at 151.13 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6180,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 171.45 98.552 0)
+			(at 152.4 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6189,7 @@
 			)
 		)
 		(property "Footprint" "RESAD2700W60L1100D400"
-			(at 165.1 96.52 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +6199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 93.98 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6209,7 @@
 			)
 		)
 		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 179.07 95.25 0)
+			(at 160.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6218,7 @@
 			)
 		)
 		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 165.1 91.44 0)
+			(at 146.05 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6228,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 165.1 88.9 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6238,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "HKR"
-			(at 165.1 86.36 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6248,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 165.1 83.82 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6258,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 165.1 81.28 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6268,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 165.1 78.74 0)
+			(at 146.05 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +6278,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 165.1 76.2 0)
+			(at 146.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6288,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 165.1 73.66 0)
+			(at 146.05 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6314,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:R - CF100-3K3-J-TB-070-62")
-		(at 251.46 68.58 270)
+		(at 232.41 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6356,7 +6322,7 @@
 		(dnp no)
 		(uuid "ea9b100d-fec8-48a5-8866-66abf7757a13")
 		(property "Reference" "R8"
-			(at 247.65 77.47 0)
+			(at 228.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +6330,7 @@
 			)
 		)
 		(property "Value" "520"
-			(at 254.762 76.2 0)
+			(at 235.712 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6339,7 @@
 			)
 		)
 		(property "Footprint" "RESAD2700W60L1100D400"
-			(at 252.73 82.55 0)
+			(at 233.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +6349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 82.55 0)
+			(at 231.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6359,7 @@
 			)
 		)
 		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 251.46 68.58 0)
+			(at 232.41 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6368,7 @@
 			)
 		)
 		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 247.65 82.55 0)
+			(at 228.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6378,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 245.11 82.55 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6388,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "HKR"
-			(at 242.57 82.55 0)
+			(at 223.52 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6398,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 240.03 82.55 0)
+			(at 220.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6408,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 237.49 82.55 0)
+			(at 218.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6418,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 234.95 82.55 0)
+			(at 215.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6428,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 232.41 82.55 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,7 +6438,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 229.87 82.55 0)
+			(at 210.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +6597,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:R - CF100-3K3-J-TB-070-62")
-		(at 212.09 95.25 0)
+		(at 193.04 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6639,7 +6605,7 @@
 		(dnp no)
 		(uuid "fece6f7d-f435-462c-80d6-75969f557ae0")
 		(property "Reference" "R9"
-			(at 220.98 99.06 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6613,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 219.71 91.948 0)
+			(at 200.66 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6622,7 @@
 			)
 		)
 		(property "Footprint" "RESAD2700W60L1100D400"
-			(at 226.06 93.98 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +6632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 96.52 0)
+			(at 207.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +6642,7 @@
 			)
 		)
 		(property "Description" "CF100-3K3-J-TB-070-62 CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 212.09 95.25 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6651,7 @@
 			)
 		)
 		(property "Description_1" "CARBON FILM FIXED RESISTOR, 1.0(1W)"
-			(at 226.06 99.06 0)
+			(at 207.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +6661,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 226.06 101.6 0)
+			(at 207.01 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6671,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "HKR"
-			(at 226.06 104.14 0)
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6681,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CF100-3K3-J-TB-070-62"
-			(at 226.06 106.68 0)
+			(at 207.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6691,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 226.06 109.22 0)
+			(at 207.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6701,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 226.06 111.76 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6711,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 226.06 114.3 0)
+			(at 207.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6721,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 226.06 116.84 0)
+			(at 207.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
