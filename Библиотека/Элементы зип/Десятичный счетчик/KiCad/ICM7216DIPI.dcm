@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICM7216DIPI
+D Renesas Electronics
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Renesas/icm7216b-16d.pdf
+$ENDCMP
+#
+#End Doc Library
