@@ -3996,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "My_lib2:0650HIM-130G-G"
+		(property "Footprint" "My_lib2:SW - 0650HIM-130G-G"
 			(at 0 5.08 0)
 			(effects
 				(font
