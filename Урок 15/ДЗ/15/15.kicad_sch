@@ -8061,7 +8061,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:VD(TVS) - SMAJ5.0A")
-		(at 58.42 41.91 90)
+		(at 58.42 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8075,7 +8075,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMAJ5.0A"
@@ -8084,11 +8084,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 63.5 41.91 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8097,7 @@
 			)
 		)
 		(property "Datasheet" "https://static.chipdip.ru/lib/866/DOC025866078.pdf"
-			(at 58.42 43.18 0)
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
