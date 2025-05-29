@@ -6062,7 +6062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "My_lib2:SOIC-8-N8_3.9x4.9mm_P1.27mm"
 			(at 1.016 6.096 0)
 			(effects
 				(font
