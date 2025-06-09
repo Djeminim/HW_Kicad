@@ -649,6 +649,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "1468429f-a90e-429d-8323-1651ce537515",
+      "Root"
+    ],
+    [
+      "cde3f52e-a70a-49e4-9b4f-0192bddb5ddd",
+      "RS-485 Modbus RTU"
+    ],
+    [
+      "73dfe197-82eb-4c50-b93e-e05ae41f439e",
+      "Датчики"
+    ],
+    [
+      "06876c57-39a3-4f38-b793-cda4b4a15cb5",
+      "Разрешение на управление силовыми ключами"
+    ]
+  ],
   "text_variables": {}
 }
