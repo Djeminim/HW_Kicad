@@ -112,7 +112,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Плата управления прошивной эрозией.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": -543,
+          "pos_y": 176,
+          "size_x": 1936,
+          "size_y": 1053
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {

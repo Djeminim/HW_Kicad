@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "14.kicad_prl",
+    "filename": "Плата управления прошивной эрозией.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -87,16 +87,16 @@
       9
     ],
     "col_widths": [
-      162,
-      147,
-      93,
-      101,
+      186,
+      171,
+      114,
+      122,
+      137,
+      125,
+      118,
+      106,
       112,
-      102,
-      96,
-      90,
-      91,
-      91
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
