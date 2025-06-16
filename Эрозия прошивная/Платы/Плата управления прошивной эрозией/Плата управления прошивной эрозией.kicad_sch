@@ -3775,7 +3775,7 @@
 	)
 	(text "SWDIO\n"
 		(exclude_from_sim no)
-		(at 177.546 100.076 0)
+		(at 171.196 98.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3815,7 +3815,7 @@
 	)
 	(text "SWCLK\n\n"
 		(exclude_from_sim no)
-		(at 177.292 106.172 0)
+		(at 170.942 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3998,12 +3998,6 @@
 		(uuid "be3a2f9c-2d95-4deb-b8e4-f09e8db55d66")
 	)
 	(junction
-		(at 181.61 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf4d6e61-0e10-4fd1-8335-100dc6024697")
-	)
-	(junction
 		(at 153.67 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4166,7 +4160,7 @@
 		(uuid "8c5a52c7-1339-4d85-bf2b-c4254bf2d494")
 	)
 	(no_connect
-		(at 203.2 99.06)
+		(at 189.23 97.79)
 		(uuid "adb47578-03fd-40fd-a161-dc3fe2075b06")
 	)
 	(no_connect
@@ -4565,7 +4559,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 106.68) (xy 185.42 106.68)
+			(xy 166.37 105.41) (xy 186.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4725,17 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 106.68) (xy 181.61 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46d1fb7d-af13-49c8-8347-547c2c776d5c")
-	)
-	(wire
-		(pts
-			(xy 203.2 104.14) (xy 198.12 104.14)
+			(xy 189.23 102.87) (xy 184.15 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4802,16 +4786,6 @@
 			(type default)
 		)
 		(uuid "4c15e78d-069f-4ca1-bfc9-c552729169a3")
-	)
-	(wire
-		(pts
-			(xy 193.04 101.6) (xy 198.12 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c30f52d-7b28-406e-a10b-31dbab1bb6b9")
 	)
 	(wire
 		(pts
@@ -5005,7 +4979,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 101.6) (xy 200.66 106.68)
+			(xy 186.69 100.33) (xy 186.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5052,16 +5026,6 @@
 			(type default)
 		)
 		(uuid "731c7413-1e3f-444c-b649-8681aed971de")
-	)
-	(wire
-		(pts
-			(xy 181.61 116.84) (xy 181.61 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73615fb9-96fb-49ea-81a1-0647d6014a13")
 	)
 	(wire
 		(pts
@@ -5225,17 +5189,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 123.19) (xy 153.67 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "866786bd-0e1e-4a55-b531-52fe2722cbc3")
-	)
-	(wire
-		(pts
-			(xy 172.72 101.6) (xy 185.42 101.6)
+			(xy 166.37 100.33) (xy 184.15 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5255,7 +5209,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 101.6) (xy 200.66 101.6)
+			(xy 189.23 100.33) (xy 186.69 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5282,16 +5236,6 @@
 			(type default)
 		)
 		(uuid "8df252c6-6d8f-4c10-aa10-079ccdc0e64a")
-	)
-	(wire
-		(pts
-			(xy 172.72 106.68) (xy 181.61 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f212a92-d38f-440b-ab29-3613cab30ecf")
 	)
 	(wire
 		(pts
@@ -5335,7 +5279,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 203.2 106.68)
+			(xy 187.96 105.41) (xy 189.23 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5462,16 +5406,6 @@
 			(type default)
 		)
 		(uuid "9e25ddd8-f223-4d17-b002-750f571217e3")
-	)
-	(wire
-		(pts
-			(xy 193.04 106.68) (xy 200.66 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f230d8d-17a4-4cc9-ba12-50f3064d2dff")
 	)
 	(wire
 		(pts
@@ -5805,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 104.14) (xy 198.12 101.6)
+			(xy 184.15 102.87) (xy 184.15 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5905,7 +5839,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 201.93 110.49)
+			(xy 187.96 105.41) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6423,7 +6357,7 @@
 	)
 	(global_label "SWDIO"
 		(shape output)
-		(at 172.72 101.6 180)
+		(at 166.37 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6433,7 +6367,7 @@
 		)
 		(uuid "5278ba27-b923-425f-85c7-2b595e64d7b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.8686 101.6 0)
+			(at 157.5186 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6511,7 @@
 	)
 	(global_label "SWCLK"
 		(shape output)
-		(at 172.72 106.68 180)
+		(at 166.37 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6587,7 +6521,7 @@
 		)
 		(uuid "86c3f72c-71c3-4e5e-891b-ea9796f90c9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.5058 106.68 0)
+			(at 157.1558 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,75 +6968,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 181.61 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00cc26df-6759-4347-97f1-5b622e0d108e")
-		(property "Reference" "C18"
-			(at 185.42 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47pF"
-			(at 185.674 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.5752 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 181.61 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c7cbcd10-b8ea-4fa1-8d67-7f639d722c03")
-		)
-		(pin "1"
-			(uuid "07105dbf-7a4b-4d62-a724-08850ff19905")
-		)
-		(instances
-			(project "Плата управления прошивной эрозией"
-				(path "/1468429f-a90e-429d-8323-1651ce537515"
-					(reference "C18")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7727,7 +7592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 110.49 0)
+		(at 187.96 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7736,7 +7601,7 @@
 		(fields_autoplaced yes)
 		(uuid "20f4d527-8f36-4ff9-97b8-e33eb06f6b2d")
 		(property "Reference" "#PWR07"
-			(at 201.93 116.84 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +7610,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 115.57 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 110.49 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +7627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 110.49 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +7636,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 110.49 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,72 +8744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 181.61 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e385dfd-2de6-4a78-aead-0518a50ca9d4")
-		(property "Reference" "#PWR06"
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c45ab0c-48e2-4f8f-95f4-bcd72c241a43")
-		)
-		(instances
-			(project "Плата управления прошивной эрозией"
-				(path "/1468429f-a90e-429d-8323-1651ce537515"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "My_Lib:LDO_AP2112K-3.3")
 		(at 102.87 34.29 0)
 		(unit 1)
@@ -9084,72 +8883,6 @@
 			(project "Плата управления прошивной эрозией"
 				(path "/1468429f-a90e-429d-8323-1651ce537515"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "686b760b-70d9-4f49-b19f-349fa9838669")
-		(property "Reference" "#PWR013"
-			(at 153.67 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5af6efb7-95f6-44dd-8ff2-35b1cab967ed")
-		)
-		(instances
-			(project "Плата управления прошивной эрозией"
-				(path "/1468429f-a90e-429d-8323-1651ce537515"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9497,7 +9230,7 @@
 	)
 	(symbol
 		(lib_id "My_Lib:J - B4P-VH")
-		(at 208.28 97.79 270)
+		(at 194.31 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9506,7 +9239,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e787154-c895-4897-b2f1-0607d2951ec2")
 		(property "Reference" "J2"
-			(at 208.28 102.2349 90)
+			(at 194.31 100.9649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9515,7 +9248,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 208.28 104.14 90)
+			(at 194.31 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9257,7 @@
 			)
 		)
 		(property "Footprint" "My_lib2:J - W04M"
-			(at 208.28 97.79 0)
+			(at 194.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +9266,7 @@
 			)
 		)
 		(property "Datasheet" "https://static.chipdip.ru/lib/631/DOC011631422.pdf"
-			(at 214.122 100.838 0)
+			(at 200.152 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,7 +9275,7 @@
 			)
 		)
 		(property "Description" "W04M"
-			(at 208.28 97.79 0)
+			(at 194.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,75 +9365,6 @@
 			(project "Плата управления прошивной эрозией"
 				(path "/1468429f-a90e-429d-8323-1651ce537515"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 153.67 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8641da63-0a41-4524-a881-cee3ca7c0a34")
-		(property "Reference" "C21"
-			(at 160.782 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47pF"
-			(at 161.544 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 152.7048 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 153.67 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a41f634-a04b-49e8-a409-578115249558")
-		)
-		(pin "1"
-			(uuid "be382cf7-264b-471b-bc6f-7fc5f332eaf6")
-		)
-		(instances
-			(project "Плата управления прошивной эрозией"
-				(path "/1468429f-a90e-429d-8323-1651ce537515"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9905,73 +9569,6 @@
 			(project "Плата управления прошивной эрозией"
 				(path "/1468429f-a90e-429d-8323-1651ce537515"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 189.23 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3038223-6c85-4f55-8ad3-7cfbb373b54f")
-		(property "Reference" "R7"
-			(at 189.23 104.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 189.23 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 189.23 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afd2d2e8-3389-40f9-8135-a3b897e0d5c9")
-		)
-		(pin "2"
-			(uuid "41cf2e7b-d5fb-429f-9677-66db6160adde")
-		)
-		(instances
-			(project "Плата управления прошивной эрозией"
-				(path "/1468429f-a90e-429d-8323-1651ce537515"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10395,73 +9992,6 @@
 			(project "Плата управления прошивной эрозией"
 				(path "/1468429f-a90e-429d-8323-1651ce537515"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 189.23 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca6dc958-c30e-47db-9e62-f1fafbfa7268")
-		(property "Reference" "R6"
-			(at 189.23 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 189.23 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 189.23 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24c6cd75-ce03-45ec-8ae6-d23def1ccbc0")
-		)
-		(pin "2"
-			(uuid "10577a51-7ab7-4904-b489-7ceb80d93665")
-		)
-		(instances
-			(project "Плата управления прошивной эрозией"
-				(path "/1468429f-a90e-429d-8323-1651ce537515"
-					(reference "R6")
 					(unit 1)
 				)
 			)
